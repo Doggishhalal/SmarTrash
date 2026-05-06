@@ -1,0 +1,1376 @@
+{
+  "image_hash": "5a9522051c3cec2bbd2f6323fccba32e8fbf3ddcc2b3e2fd46b04c720bc6f866",
+  "timestamp": "2026-04-16T09:38:42.542306",
+  "detections": [
+    {
+      "class": "bicycle",
+      "score": 1.0,
+      "bbox": [
+        138.0,
+        101.0,
+        510.0,
+        357.0
+      ],
+      "tta_support_count": 4,
+      "tta_support_ratio": 0.8,
+      "calibrated_confidence": 1.0,
+      "original_confidence": 1.0,
+      "object_condition": {
+        "state": "poor",
+        "score": 0.3968259000243296,
+        "description": "Starke Abnutzung",
+        "details": [
+          {
+            "type": "dirt",
+            "severity": 0.5403603830645162,
+            "description": "Verschmutzung erkannt (54.0%)"
+          },
+          {
+            "type": "damage",
+            "severity": 0.31586021505376344,
+            "description": "Beschädigung erkannt (31.6%)"
+          },
+          {
+            "type": "discoloration",
+            "severity": 0.556475801784402,
+            "description": "Verfärbung erkannt (55.6%)"
+          },
+          {
+            "type": "texture_anomaly",
+            "severity": 1.0,
+            "description": "Ungewöhnliche Textur (100.0%)"
+          }
+        ]
+      },
+      "detection_id": 612,
+      "image_hash": "5a9522051c3cec2bbd2f6323fccba32e8fbf3ddcc2b3e2fd46b04c720bc6f866",
+      "learned": true,
+      "quality_guard": {
+        "requires_manual_review": true,
+        "reasons": [
+          "low_reliability"
+        ],
+        "reliability": {
+          "accuracy_rate": 0.5,
+          "total_samples": 0,
+          "reliability": 0.2,
+          "data_sufficient": false
+        },
+        "confusion": {
+          "total_feedback": 0,
+          "wrong_rate": 0.0,
+          "top_confusions": [],
+          "risk_level": "unknown"
+        }
+      },
+      "bbox_area_ratio": 0.2152777777777778,
+      "class_threshold": 0.4,
+      "class_risk_policy": {
+        "is_high_risk": false,
+        "is_medium_risk": false,
+        "risk_penalty": 0.0,
+        "effective_threshold": 0.6
+      },
+      "web_knowledge": {
+        "available": false,
+        "hints": [],
+        "confidence": 0.0
+      },
+      "waste_sorting": {
+        "bin": "RESTMÜLL",
+        "bin_description": "Schwarze Tonne / Restmülltonne",
+        "material": "unknown",
+        "recyclable": false,
+        "confidence": 1.0,
+        "decision_quality": 0.6,
+        "reasoning": [
+          "Objekt 'bicycle' ist primär: RESTMÜLL",
+          "Lernwissen: Zieltonne aus historischer Evidenz übernommen"
+        ],
+        "warnings": [],
+        "special_disposal": null,
+        "condition_affected_decision": false,
+        "requires_manual_review": true,
+        "review_reasons": [
+          "low_reliability",
+          "unknown_object"
+        ],
+        "action": "MANUAL_CHECK_REQUIRED",
+        "recommended_bin": null,
+        "safe_fallback_bin": "RESTMÜLL",
+        "hard_safety_applied": true,
+        "verification": {
+          "consistency_checked": true,
+          "corrected": false,
+          "issues": []
+        }
+      },
+      "requires_manual_review": true,
+      "user_action": "MANUAL_CHECK_REQUIRED",
+      "adaptive_policy_mode": "cold_start_safe",
+      "confidence_final": 1.0,
+      "confidence_class_threshold": 0.6,
+      "validation_layers_passed": 7,
+      "bbox_model": [
+        138.0,
+        101.0,
+        510.0,
+        357.0
+      ],
+      "framing_focus": {
+        "applied": false,
+        "reason": "post_output_skip"
+      },
+      "framing_quality": 0.826,
+      "framing_needs_improvement": false
+    },
+    {
+      "class": "bicycle",
+      "score": 0.9504193067550659,
+      "bbox": [
+        48.324999999999996,
+        52.675,
+        356.67499999999995,
+        267.32500000000005
+      ],
+      "tta_support_count": 1,
+      "tta_support_ratio": 0.2,
+      "calibrated_confidence": 0.9664876065025896,
+      "original_confidence": 0.9504193067550659,
+      "object_condition": {
+        "state": "worn",
+        "score": 0.4010306851097246,
+        "description": "Deutliche Abnutzung",
+        "details": [
+          {
+            "type": "dirt",
+            "severity": 0.486962676962677,
+            "description": "Verschmutzung erkannt (48.7%)"
+          },
+          {
+            "type": "damage",
+            "severity": 0.4039039039039039,
+            "description": "Beschädigung erkannt (40.4%)"
+          },
+          {
+            "type": "discoloration",
+            "severity": 0.5050106786945207,
+            "description": "Verfärbung erkannt (50.5%)"
+          },
+          {
+            "type": "texture_anomaly",
+            "severity": 1.0,
+            "description": "Ungewöhnliche Textur (100.0%)"
+          }
+        ]
+      },
+      "detection_id": 613,
+      "image_hash": "5a9522051c3cec2bbd2f6323fccba32e8fbf3ddcc2b3e2fd46b04c720bc6f866",
+      "learned": true,
+      "quality_guard": {
+        "requires_manual_review": true,
+        "reasons": [
+          "low_reliability"
+        ],
+        "reliability": {
+          "accuracy_rate": 0.5,
+          "total_samples": 0,
+          "reliability": 0.2,
+          "data_sufficient": false
+        },
+        "confusion": {
+          "total_feedback": 0,
+          "wrong_rate": 0.0,
+          "top_confusions": [],
+          "risk_level": "unknown"
+        }
+      },
+      "bbox_area_ratio": 0.10538736979166667,
+      "class_threshold": 0.4,
+      "class_risk_policy": {
+        "is_high_risk": false,
+        "is_medium_risk": false,
+        "risk_penalty": 0.0,
+        "effective_threshold": 0.6
+      },
+      "web_knowledge": {
+        "available": false,
+        "hints": [],
+        "confidence": 0.0
+      },
+      "waste_sorting": {
+        "bin": "RESTMÜLL",
+        "bin_description": "Schwarze Tonne / Restmülltonne",
+        "material": "unknown",
+        "recyclable": false,
+        "confidence": 0.9664876065025896,
+        "decision_quality": 0.6,
+        "reasoning": [
+          "Objekt 'bicycle' ist primär: RESTMÜLL",
+          "Lernwissen: Zieltonne aus historischer Evidenz übernommen"
+        ],
+        "warnings": [],
+        "special_disposal": null,
+        "condition_affected_decision": false,
+        "requires_manual_review": true,
+        "review_reasons": [
+          "low_reliability",
+          "unknown_object"
+        ],
+        "action": "MANUAL_CHECK_REQUIRED",
+        "recommended_bin": null,
+        "safe_fallback_bin": "RESTMÜLL",
+        "hard_safety_applied": true,
+        "verification": {
+          "consistency_checked": true,
+          "corrected": false,
+          "issues": []
+        }
+      },
+      "requires_manual_review": true,
+      "user_action": "MANUAL_CHECK_REQUIRED",
+      "adaptive_policy_mode": "cold_start_safe",
+      "confidence_final": 0.9664876065025896,
+      "confidence_class_threshold": 0.6,
+      "validation_layers_passed": 7,
+      "bbox_model": [
+        73.0,
+        70.0,
+        332.0,
+        250.0
+      ],
+      "framing_focus": {
+        "applied": true,
+        "refine_strength": 0.525,
+        "roi_shape": [
+          353,
+          246
+        ],
+        "fit_metrics": {
+          "quality": 0.862,
+          "border_density": 0.1203,
+          "center_density": 0.1248,
+          "edge_density": 0.1234,
+          "need_expand": false
+        },
+        "model_fit": {
+          "quality": 0.849,
+          "border_density": 0.1241,
+          "center_density": 0.1219,
+          "edge_density": 0.1226,
+          "need_expand": false
+        },
+        "selected_fit": {
+          "quality": 0.862,
+          "border_density": 0.1203,
+          "center_density": 0.1248,
+          "edge_density": 0.1234,
+          "need_expand": false
+        }
+      },
+      "framing_quality": 0.862,
+      "framing_needs_improvement": false
+    },
+    {
+      "class": "dog",
+      "score": 0.9326663208007813,
+      "bbox": [
+        76.025,
+        142.05,
+        209.975,
+        371.05
+      ],
+      "tta_support_count": 2,
+      "tta_support_ratio": 0.4,
+      "calibrated_confidence": 0.95578964283053,
+      "original_confidence": 0.9326663208007813,
+      "object_condition": {
+        "state": "poor",
+        "score": 0.32969048118620703,
+        "description": "Starke Abnutzung",
+        "details": [
+          {
+            "type": "dirt",
+            "severity": 0.47844611528822056,
+            "description": "Verschmutzung erkannt (47.8%)"
+          },
+          {
+            "type": "discoloration",
+            "severity": 0.5324824411531587,
+            "description": "Verfärbung erkannt (53.2%)"
+          },
+          {
+            "type": "texture_anomaly",
+            "severity": 1.0,
+            "description": "Ungewöhnliche Textur (100.0%)"
+          }
+        ]
+      },
+      "detection_id": 616,
+      "image_hash": "5a9522051c3cec2bbd2f6323fccba32e8fbf3ddcc2b3e2fd46b04c720bc6f866",
+      "learned": true,
+      "quality_guard": {
+        "requires_manual_review": true,
+        "reasons": [
+          "low_reliability"
+        ],
+        "reliability": {
+          "accuracy_rate": 0.5,
+          "total_samples": 0,
+          "reliability": 0.2,
+          "data_sufficient": false
+        },
+        "confusion": {
+          "total_feedback": 0,
+          "wrong_rate": 0.0,
+          "top_confusions": [],
+          "risk_level": "unknown"
+        }
+      },
+      "bbox_area_ratio": 0.054117838541666664,
+      "class_threshold": 0.4,
+      "class_risk_policy": {
+        "is_high_risk": false,
+        "is_medium_risk": false,
+        "risk_penalty": 0.0,
+        "effective_threshold": 0.6
+      },
+      "web_knowledge": {
+        "available": false,
+        "hints": [],
+        "confidence": 0.0
+      },
+      "waste_sorting": {
+        "bin": "RESTMÜLL",
+        "bin_description": "Schwarze Tonne / Restmülltonne",
+        "material": "unknown",
+        "recyclable": false,
+        "confidence": 0.95578964283053,
+        "decision_quality": 0.6,
+        "reasoning": [
+          "Objekt 'dog' ist primär: RESTMÜLL",
+          "Lernwissen: Zieltonne aus historischer Evidenz übernommen"
+        ],
+        "warnings": [],
+        "special_disposal": null,
+        "condition_affected_decision": false,
+        "requires_manual_review": true,
+        "review_reasons": [
+          "low_reliability",
+          "unknown_object"
+        ],
+        "action": "MANUAL_CHECK_REQUIRED",
+        "recommended_bin": null,
+        "safe_fallback_bin": "RESTMÜLL",
+        "hard_safety_applied": true,
+        "verification": {
+          "consistency_checked": true,
+          "corrected": false,
+          "issues": []
+        }
+      },
+      "requires_manual_review": true,
+      "user_action": "MANUAL_CHECK_REQUIRED",
+      "adaptive_policy_mode": "cold_start_safe",
+      "confidence_final": 1.0,
+      "confidence_class_threshold": 0.6,
+      "validation_layers_passed": 7,
+      "bbox_model": [
+        86.0,
+        143.0,
+        200.0,
+        353.0
+      ],
+      "framing_focus": {
+        "applied": true,
+        "refine_strength": 0.475,
+        "roi_shape": [
+          156,
+          286
+        ],
+        "fit_metrics": {
+          "quality": 0.811,
+          "border_density": 0.0417,
+          "center_density": 0.0582,
+          "edge_density": 0.0534,
+          "need_expand": false
+        },
+        "model_fit": {
+          "quality": 0.815,
+          "border_density": 0.0433,
+          "center_density": 0.0623,
+          "edge_density": 0.0571,
+          "need_expand": false
+        },
+        "selected_fit": {
+          "quality": 0.811,
+          "border_density": 0.0417,
+          "center_density": 0.0582,
+          "edge_density": 0.0534,
+          "need_expand": false
+        }
+      },
+      "framing_quality": 0.811,
+      "framing_needs_improvement": false
+    },
+    {
+      "class": "dog",
+      "score": 0.9227773547172546,
+      "bbox": [
+        238.0,
+        183.0,
+        391.0,
+        451.0
+      ],
+      "tta_support_count": 1,
+      "tta_support_ratio": 0.2,
+      "calibrated_confidence": 0.9327782565656357,
+      "original_confidence": 0.9227773547172546,
+      "object_condition": {
+        "state": "worn",
+        "score": 0.40796043946781313,
+        "description": "Deutliche Abnutzung",
+        "details": [
+          {
+            "type": "dirt",
+            "severity": 0.5617647058823529,
+            "description": "Verschmutzung erkannt (56.2%)"
+          },
+          {
+            "type": "damage",
+            "severity": 0.22807530972588042,
+            "description": "Beschädigung erkannt (22.8%)"
+          },
+          {
+            "type": "discoloration",
+            "severity": 0.578318226520514,
+            "description": "Verfärbung erkannt (57.8%)"
+          },
+          {
+            "type": "texture_anomaly",
+            "severity": 1.0,
+            "description": "Ungewöhnliche Textur (100.0%)"
+          }
+        ]
+      },
+      "detection_id": 614,
+      "image_hash": "5a9522051c3cec2bbd2f6323fccba32e8fbf3ddcc2b3e2fd46b04c720bc6f866",
+      "learned": true,
+      "quality_guard": {
+        "requires_manual_review": true,
+        "reasons": [
+          "low_reliability"
+        ],
+        "reliability": {
+          "accuracy_rate": 0.5,
+          "total_samples": 0,
+          "reliability": 0.2,
+          "data_sufficient": false
+        },
+        "confusion": {
+          "total_feedback": 0,
+          "wrong_rate": 0.0,
+          "top_confusions": [],
+          "risk_level": "unknown"
+        }
+      },
+      "bbox_area_ratio": 0.09269205729166667,
+      "class_threshold": 0.4,
+      "class_risk_policy": {
+        "is_high_risk": false,
+        "is_medium_risk": false,
+        "risk_penalty": 0.0,
+        "effective_threshold": 0.6
+      },
+      "web_knowledge": {
+        "available": false,
+        "hints": [],
+        "confidence": 0.0
+      },
+      "waste_sorting": {
+        "bin": "RESTMÜLL",
+        "bin_description": "Schwarze Tonne / Restmülltonne",
+        "material": "unknown",
+        "recyclable": false,
+        "confidence": 0.9327782565656357,
+        "decision_quality": 0.6,
+        "reasoning": [
+          "Objekt 'dog' ist primär: RESTMÜLL",
+          "Lernwissen: Zieltonne aus historischer Evidenz übernommen"
+        ],
+        "warnings": [],
+        "special_disposal": null,
+        "condition_affected_decision": false,
+        "requires_manual_review": true,
+        "review_reasons": [
+          "low_reliability",
+          "unknown_object"
+        ],
+        "action": "MANUAL_CHECK_REQUIRED",
+        "recommended_bin": null,
+        "safe_fallback_bin": "RESTMÜLL",
+        "hard_safety_applied": true,
+        "verification": {
+          "consistency_checked": true,
+          "corrected": false,
+          "issues": []
+        }
+      },
+      "requires_manual_review": true,
+      "user_action": "MANUAL_CHECK_REQUIRED",
+      "adaptive_policy_mode": "cold_start_safe",
+      "confidence_final": 0.9327782565656357,
+      "confidence_class_threshold": 0.6,
+      "validation_layers_passed": 7,
+      "bbox_model": [
+        238.0,
+        183.0,
+        391.0,
+        451.0
+      ],
+      "framing_focus": {
+        "applied": false,
+        "reason": "candidate_worse_than_model",
+        "model_quality": 0.84,
+        "candidate_quality": 0.815
+      },
+      "framing_quality": 0.84,
+      "framing_needs_improvement": false
+    },
+    {
+      "class": "dog",
+      "score": 0.9131375551223755,
+      "bbox": [
+        96.82499999999999,
+        158.75,
+        272.175,
+        484.25
+      ],
+      "tta_support_count": 1,
+      "tta_support_ratio": 0.2,
+      "calibrated_confidence": 0.9259103885038645,
+      "original_confidence": 0.9131375551223755,
+      "object_condition": {
+        "state": "worn",
+        "score": 0.41366187178488667,
+        "description": "Deutliche Abnutzung",
+        "details": [
+          {
+            "type": "dirt",
+            "severity": 0.6463332585781565,
+            "description": "Verschmutzung erkannt (64.6%)"
+          },
+          {
+            "type": "damage",
+            "severity": 0.20697216615583963,
+            "description": "Beschädigung erkannt (20.7%)"
+          },
+          {
+            "type": "discoloration",
+            "severity": 0.4920470881264572,
+            "description": "Verfärbung erkannt (49.2%)"
+          },
+          {
+            "type": "texture_anomaly",
+            "severity": 1.0,
+            "description": "Ungewöhnliche Textur (100.0%)"
+          }
+        ]
+      },
+      "detection_id": 615,
+      "image_hash": "5a9522051c3cec2bbd2f6323fccba32e8fbf3ddcc2b3e2fd46b04c720bc6f866",
+      "learned": true,
+      "quality_guard": {
+        "requires_manual_review": true,
+        "reasons": [
+          "low_reliability"
+        ],
+        "reliability": {
+          "accuracy_rate": 0.5,
+          "total_samples": 0,
+          "reliability": 0.2,
+          "data_sufficient": false
+        },
+        "confusion": {
+          "total_feedback": 0,
+          "wrong_rate": 0.0,
+          "top_confusions": [],
+          "risk_level": "unknown"
+        }
+      },
+      "bbox_area_ratio": 0.09071858723958333,
+      "class_threshold": 0.4,
+      "class_risk_policy": {
+        "is_high_risk": false,
+        "is_medium_risk": false,
+        "risk_penalty": 0.0,
+        "effective_threshold": 0.6
+      },
+      "web_knowledge": {
+        "available": false,
+        "hints": [],
+        "confidence": 0.0
+      },
+      "waste_sorting": {
+        "bin": "RESTMÜLL",
+        "bin_description": "Schwarze Tonne / Restmülltonne",
+        "material": "unknown",
+        "recyclable": false,
+        "confidence": 0.9259103885038645,
+        "decision_quality": 0.6,
+        "reasoning": [
+          "Objekt 'dog' ist primär: RESTMÜLL",
+          "Lernwissen: Zieltonne aus historischer Evidenz übernommen"
+        ],
+        "warnings": [],
+        "special_disposal": null,
+        "condition_affected_decision": false,
+        "requires_manual_review": true,
+        "review_reasons": [
+          "low_reliability",
+          "unknown_object"
+        ],
+        "action": "MANUAL_CHECK_REQUIRED",
+        "recommended_bin": null,
+        "safe_fallback_bin": "RESTMÜLL",
+        "hard_safety_applied": true,
+        "verification": {
+          "consistency_checked": true,
+          "corrected": false,
+          "issues": []
+        }
+      },
+      "requires_manual_review": true,
+      "user_action": "MANUAL_CHECK_REQUIRED",
+      "adaptive_policy_mode": "cold_start_safe",
+      "confidence_final": 0.9259103885038645,
+      "confidence_class_threshold": 0.6,
+      "validation_layers_passed": 7,
+      "bbox_model": [
+        111.0,
+        185.0,
+        258.0,
+        458.0
+      ],
+      "framing_focus": {
+        "applied": true,
+        "refine_strength": 0.525,
+        "roi_shape": [
+          201,
+          373
+        ],
+        "fit_metrics": {
+          "quality": 0.818,
+          "border_density": 0.0562,
+          "center_density": 0.0646,
+          "edge_density": 0.0622,
+          "need_expand": false
+        },
+        "model_fit": {
+          "quality": 0.821,
+          "border_density": 0.0432,
+          "center_density": 0.0701,
+          "edge_density": 0.0622,
+          "need_expand": false
+        },
+        "selected_fit": {
+          "quality": 0.818,
+          "border_density": 0.0562,
+          "center_density": 0.0646,
+          "edge_density": 0.0622,
+          "need_expand": false
+        }
+      },
+      "framing_quality": 0.818,
+      "framing_needs_improvement": false
+    },
+    {
+      "class": "dog",
+      "score": 0.9124222993850708,
+      "bbox": [
+        121.14999999999999,
+        198.45,
+        340.85,
+        557.4000000000001
+      ],
+      "tta_support_count": 1,
+      "tta_support_ratio": 0.2,
+      "calibrated_confidence": 0.9254861759495224,
+      "original_confidence": 0.9124222993850708,
+      "object_condition": {
+        "state": "worn",
+        "score": 0.43188633096110285,
+        "description": "Deutliche Abnutzung",
+        "details": [
+          {
+            "type": "dirt",
+            "severity": 0.6027702962677953,
+            "description": "Verschmutzung erkannt (60.3%)"
+          },
+          {
+            "type": "damage",
+            "severity": 0.21594844170834937,
+            "description": "Beschädigung erkannt (21.6%)"
+          },
+          {
+            "type": "discoloration",
+            "severity": 0.4537359381794439,
+            "description": "Verfärbung erkannt (45.4%)"
+          },
+          {
+            "type": "texture_anomaly",
+            "severity": 1.0,
+            "description": "Ungewöhnliche Textur (100.0%)"
+          }
+        ]
+      },
+      "detection_id": 617,
+      "image_hash": "5a9522051c3cec2bbd2f6323fccba32e8fbf3ddcc2b3e2fd46b04c720bc6f866",
+      "learned": true,
+      "quality_guard": {
+        "requires_manual_review": true,
+        "reasons": [
+          "low_reliability"
+        ],
+        "reliability": {
+          "accuracy_rate": 0.5,
+          "total_samples": 0,
+          "reliability": 0.2,
+          "data_sufficient": false
+        },
+        "confusion": {
+          "total_feedback": 0,
+          "wrong_rate": 0.0,
+          "top_confusions": [],
+          "risk_level": "unknown"
+        }
+      },
+      "bbox_area_ratio": 0.14100477430555555,
+      "class_threshold": 0.4,
+      "class_risk_policy": {
+        "is_high_risk": false,
+        "is_medium_risk": false,
+        "risk_penalty": 0.0,
+        "effective_threshold": 0.6
+      },
+      "web_knowledge": {
+        "available": false,
+        "hints": [],
+        "confidence": 0.0
+      },
+      "waste_sorting": {
+        "bin": "RESTMÜLL",
+        "bin_description": "Schwarze Tonne / Restmülltonne",
+        "material": "unknown",
+        "recyclable": false,
+        "confidence": 0.9254861759495224,
+        "decision_quality": 0.6,
+        "reasoning": [
+          "Objekt 'dog' ist primär: RESTMÜLL",
+          "Lernwissen: Zieltonne aus historischer Evidenz übernommen"
+        ],
+        "warnings": [],
+        "special_disposal": null,
+        "condition_affected_decision": false,
+        "requires_manual_review": true,
+        "review_reasons": [
+          "low_reliability",
+          "unknown_object"
+        ],
+        "action": "MANUAL_CHECK_REQUIRED",
+        "recommended_bin": null,
+        "safe_fallback_bin": "RESTMÜLL",
+        "hard_safety_applied": true,
+        "verification": {
+          "consistency_checked": true,
+          "corrected": false,
+          "issues": []
+        }
+      },
+      "requires_manual_review": true,
+      "user_action": "MANUAL_CHECK_REQUIRED",
+      "adaptive_policy_mode": "cold_start_safe",
+      "confidence_final": 0.9254861759495224,
+      "confidence_class_threshold": 0.6,
+      "validation_layers_passed": 7,
+      "bbox_model": [
+        139.0,
+        231.0,
+        323.0,
+        570.0
+      ],
+      "framing_focus": {
+        "applied": true,
+        "refine_strength": 0.525,
+        "roi_shape": [
+          252,
+          407
+        ],
+        "fit_metrics": {
+          "quality": 0.79,
+          "border_density": 0.0648,
+          "center_density": 0.0589,
+          "edge_density": 0.0606,
+          "need_expand": false
+        },
+        "model_fit": {
+          "quality": 0.793,
+          "border_density": 0.054,
+          "center_density": 0.053,
+          "edge_density": 0.0532,
+          "need_expand": false
+        },
+        "selected_fit": {
+          "quality": 0.79,
+          "border_density": 0.0648,
+          "center_density": 0.0589,
+          "edge_density": 0.0606,
+          "need_expand": false
+        }
+      },
+      "framing_quality": 0.79,
+      "framing_needs_improvement": false
+    },
+    {
+      "class": "truck",
+      "score": 0.7706011533737183,
+      "bbox": [
+        500.15,
+        55.125,
+        721.8499999999999,
+        149.875
+      ],
+      "tta_support_count": 1,
+      "tta_support_ratio": 0.2,
+      "calibrated_confidence": 0.7308119363547876,
+      "original_confidence": 0.7706011533737183,
+      "object_condition": {
+        "state": "poor",
+        "score": 0.38798545907706206,
+        "description": "Starke Abnutzung",
+        "details": [
+          {
+            "type": "dirt",
+            "severity": 0.525683952633728,
+            "description": "Verschmutzung erkannt (52.6%)"
+          },
+          {
+            "type": "damage",
+            "severity": 0.4042466312780727,
+            "description": "Beschädigung erkannt (40.4%)"
+          },
+          {
+            "type": "discoloration",
+            "severity": 0.5181275797799509,
+            "description": "Verfärbung erkannt (51.8%)"
+          },
+          {
+            "type": "texture_anomaly",
+            "severity": 1.0,
+            "description": "Ungewöhnliche Textur (100.0%)"
+          }
+        ]
+      },
+      "detection_id": 618,
+      "image_hash": "5a9522051c3cec2bbd2f6323fccba32e8fbf3ddcc2b3e2fd46b04c720bc6f866",
+      "learned": true,
+      "quality_guard": {
+        "requires_manual_review": true,
+        "reasons": [
+          "low_reliability"
+        ],
+        "reliability": {
+          "accuracy_rate": 0.5,
+          "total_samples": 0,
+          "reliability": 0.2,
+          "data_sufficient": false
+        },
+        "confusion": {
+          "total_feedback": 0,
+          "wrong_rate": 0.0,
+          "top_confusions": [],
+          "risk_level": "unknown"
+        }
+      },
+      "bbox_area_ratio": 0.03321668836805555,
+      "class_threshold": 0.4,
+      "class_risk_policy": {
+        "is_high_risk": false,
+        "is_medium_risk": false,
+        "risk_penalty": 0.0,
+        "effective_threshold": 0.6
+      },
+      "web_knowledge": {
+        "available": false,
+        "hints": [],
+        "confidence": 0.0
+      },
+      "waste_sorting": {
+        "bin": "RESTMÜLL",
+        "bin_description": "Schwarze Tonne / Restmülltonne",
+        "material": "unknown",
+        "recyclable": false,
+        "confidence": 0.7308119363547876,
+        "decision_quality": 0.5715683554483513,
+        "reasoning": [
+          "Objekt 'truck' ist primär: RESTMÜLL"
+        ],
+        "warnings": [],
+        "special_disposal": null,
+        "condition_affected_decision": false,
+        "requires_manual_review": true,
+        "review_reasons": [
+          "low_decision_quality",
+          "low_reliability",
+          "unknown_object"
+        ],
+        "action": "MANUAL_CHECK_REQUIRED",
+        "recommended_bin": null,
+        "safe_fallback_bin": "RESTMÜLL",
+        "hard_safety_applied": true,
+        "verification": {
+          "consistency_checked": true,
+          "corrected": false,
+          "issues": []
+        }
+      },
+      "requires_manual_review": true,
+      "user_action": "MANUAL_CHECK_REQUIRED",
+      "adaptive_policy_mode": "cold_start_safe",
+      "confidence_final": 0.7706011533737183,
+      "confidence_class_threshold": 0.6,
+      "validation_layers_passed": 7,
+      "bbox_model": [
+        518.0,
+        63.0,
+        704.0,
+        142.0
+      ],
+      "framing_focus": {
+        "applied": true,
+        "refine_strength": 0.525,
+        "roi_shape": [
+          254,
+          109
+        ],
+        "fit_metrics": {
+          "quality": 0.908,
+          "border_density": 0.1347,
+          "center_density": 0.1525,
+          "edge_density": 0.1475,
+          "need_expand": false
+        },
+        "model_fit": {
+          "quality": 0.9,
+          "border_density": 0.1383,
+          "center_density": 0.1517,
+          "edge_density": 0.1481,
+          "need_expand": false
+        },
+        "selected_fit": {
+          "quality": 0.908,
+          "border_density": 0.1347,
+          "center_density": 0.1525,
+          "edge_density": 0.1475,
+          "need_expand": false
+        }
+      },
+      "framing_quality": 0.908,
+      "framing_needs_improvement": false
+    },
+    {
+      "class": "truck",
+      "score": 0.6118965148925781,
+      "bbox": [
+        357.435,
+        52.334999999999994,
+        605.565,
+        154.66500000000002
+      ],
+      "tta_support_count": 1,
+      "tta_support_ratio": 0.2,
+      "calibrated_confidence": 0.6121485770416948,
+      "original_confidence": 0.6118965148925781,
+      "object_condition": {
+        "state": "poor",
+        "score": 0.3762349485787537,
+        "description": "Starke Abnutzung",
+        "details": [
+          {
+            "type": "dirt",
+            "severity": 0.48814848822719226,
+            "description": "Verschmutzung erkannt (48.8%)"
+          },
+          {
+            "type": "damage",
+            "severity": 0.5012133534465797,
+            "description": "Beschädigung erkannt (50.1%)"
+          },
+          {
+            "type": "discoloration",
+            "severity": 0.5056983640112129,
+            "description": "Verfärbung erkannt (50.6%)"
+          },
+          {
+            "type": "texture_anomaly",
+            "severity": 1.0,
+            "description": "Ungewöhnliche Textur (100.0%)"
+          }
+        ]
+      },
+      "detection_id": 619,
+      "image_hash": "5a9522051c3cec2bbd2f6323fccba32e8fbf3ddcc2b3e2fd46b04c720bc6f866",
+      "learned": true,
+      "quality_guard": {
+        "requires_manual_review": true,
+        "reasons": [
+          "low_reliability"
+        ],
+        "reliability": {
+          "accuracy_rate": 0.5,
+          "total_samples": 0,
+          "reliability": 0.2,
+          "data_sufficient": false
+        },
+        "confusion": {
+          "total_feedback": 0,
+          "wrong_rate": 0.0,
+          "top_confusions": [],
+          "risk_level": "unknown"
+        }
+      },
+      "bbox_area_ratio": 0.03446677879050926,
+      "class_threshold": 0.4,
+      "class_risk_policy": {
+        "is_high_risk": false,
+        "is_medium_risk": false,
+        "risk_penalty": 0.0,
+        "effective_threshold": 0.6
+      },
+      "web_knowledge": {
+        "available": false,
+        "hints": [],
+        "confidence": 0.0
+      },
+      "waste_sorting": {
+        "bin": "RESTMÜLL",
+        "bin_description": "Schwarze Tonne / Restmülltonne",
+        "material": "unknown",
+        "recyclable": false,
+        "confidence": 0.6121485770416948,
+        "decision_quality": 0.4885040039291863,
+        "reasoning": [
+          "Objekt 'truck' ist primär: RESTMÜLL"
+        ],
+        "warnings": [],
+        "special_disposal": null,
+        "condition_affected_decision": false,
+        "requires_manual_review": true,
+        "review_reasons": [
+          "low_confidence_postcheck",
+          "low_decision_quality",
+          "low_reliability",
+          "unknown_object"
+        ],
+        "action": "MANUAL_CHECK_REQUIRED",
+        "recommended_bin": null,
+        "safe_fallback_bin": "RESTMÜLL",
+        "hard_safety_applied": true,
+        "verification": {
+          "consistency_checked": true,
+          "corrected": false,
+          "issues": []
+        }
+      },
+      "requires_manual_review": true,
+      "user_action": "MANUAL_CHECK_REQUIRED",
+      "adaptive_policy_mode": "cold_start_safe",
+      "confidence_final": 0.6121485770416948,
+      "confidence_class_threshold": 0.6,
+      "validation_layers_passed": 7,
+      "bbox_model": [
+        385.0,
+        64.0,
+        578.0,
+        143.0
+      ],
+      "framing_focus": {
+        "applied": true,
+        "refine_strength": 0.525,
+        "roi_shape": [
+          263,
+          109
+        ],
+        "fit_metrics": {
+          "quality": 0.896,
+          "border_density": 0.1602,
+          "center_density": 0.1644,
+          "edge_density": 0.1633,
+          "need_expand": false
+        },
+        "model_fit": {
+          "quality": 0.829,
+          "border_density": 0.1731,
+          "center_density": 0.146,
+          "edge_density": 0.1533,
+          "need_expand": true
+        },
+        "selected_fit": {
+          "quality": 0.896,
+          "border_density": 0.1602,
+          "center_density": 0.1644,
+          "edge_density": 0.1633,
+          "need_expand": false
+        }
+      },
+      "framing_quality": 0.896,
+      "framing_needs_improvement": false
+    },
+    {
+      "class": "truck",
+      "score": 0.609674870967865,
+      "bbox": [
+        480.0,
+        80.0,
+        726.0,
+        177.0
+      ],
+      "tta_support_count": 1,
+      "tta_support_ratio": 0.2,
+      "calibrated_confidence": 0.609059459003346,
+      "original_confidence": 0.609674870967865,
+      "object_condition": {
+        "state": "worn",
+        "score": 0.4076416100467525,
+        "description": "Deutliche Abnutzung",
+        "details": [
+          {
+            "type": "dirt",
+            "severity": 0.507920543122957,
+            "description": "Verschmutzung erkannt (50.8%)"
+          },
+          {
+            "type": "damage",
+            "severity": 0.34205012153214315,
+            "description": "Beschädigung erkannt (34.2%)"
+          },
+          {
+            "type": "discoloration",
+            "severity": 0.51946289515789,
+            "description": "Verfärbung erkannt (51.9%)"
+          },
+          {
+            "type": "texture_anomaly",
+            "severity": 1.0,
+            "description": "Ungewöhnliche Textur (100.0%)"
+          }
+        ]
+      },
+      "detection_id": 620,
+      "image_hash": "5a9522051c3cec2bbd2f6323fccba32e8fbf3ddcc2b3e2fd46b04c720bc6f866",
+      "learned": true,
+      "quality_guard": {
+        "requires_manual_review": true,
+        "reasons": [
+          "low_reliability"
+        ],
+        "reliability": {
+          "accuracy_rate": 0.5,
+          "total_samples": 0,
+          "reliability": 0.2,
+          "data_sufficient": false
+        },
+        "confusion": {
+          "total_feedback": 0,
+          "wrong_rate": 0.0,
+          "top_confusions": [],
+          "risk_level": "unknown"
+        }
+      },
+      "bbox_area_ratio": 0.05394151475694445,
+      "class_threshold": 0.4,
+      "class_risk_policy": {
+        "is_high_risk": false,
+        "is_medium_risk": false,
+        "risk_penalty": 0.0,
+        "effective_threshold": 0.6
+      },
+      "web_knowledge": {
+        "available": false,
+        "hints": [],
+        "confidence": 0.0
+      },
+      "waste_sorting": {
+        "bin": "RESTMÜLL",
+        "bin_description": "Schwarze Tonne / Restmülltonne",
+        "material": "unknown",
+        "recyclable": false,
+        "confidence": 0.609059459003346,
+        "decision_quality": 0.4863416213023422,
+        "reasoning": [
+          "Objekt 'truck' ist primär: RESTMÜLL"
+        ],
+        "warnings": [],
+        "special_disposal": null,
+        "condition_affected_decision": false,
+        "requires_manual_review": true,
+        "review_reasons": [
+          "low_confidence_postcheck",
+          "low_decision_quality",
+          "low_reliability",
+          "unknown_object"
+        ],
+        "action": "MANUAL_CHECK_REQUIRED",
+        "recommended_bin": null,
+        "safe_fallback_bin": "RESTMÜLL",
+        "hard_safety_applied": true,
+        "verification": {
+          "consistency_checked": true,
+          "corrected": false,
+          "issues": []
+        }
+      },
+      "requires_manual_review": true,
+      "user_action": "MANUAL_CHECK_REQUIRED",
+      "adaptive_policy_mode": "cold_start_safe",
+      "confidence_final": 0.609674870967865,
+      "confidence_class_threshold": 0.6,
+      "validation_layers_passed": 7,
+      "bbox_model": [
+        480.0,
+        80.0,
+        726.0,
+        177.0
+      ],
+      "framing_focus": {
+        "applied": false,
+        "reason": "post_output_skip"
+      },
+      "framing_quality": 0.878,
+      "framing_needs_improvement": false
+    },
+    {
+      "class": "truck",
+      "score": 0.6062915921211243,
+      "bbox": [
+        321.0,
+        53.0,
+        482.0,
+        119.0
+      ],
+      "tta_support_count": 1,
+      "tta_support_ratio": 0.2,
+      "calibrated_confidence": 0.6052143087001454,
+      "original_confidence": 0.6062915921211243,
+      "object_condition": {
+        "state": "poor",
+        "score": 0.3552548068279392,
+        "description": "Starke Abnutzung",
+        "details": [
+          {
+            "type": "dirt",
+            "severity": 0.44438170525127046,
+            "description": "Verschmutzung erkannt (44.4%)"
+          },
+          {
+            "type": "damage",
+            "severity": 0.655373611895351,
+            "description": "Beschädigung erkannt (65.5%)"
+          },
+          {
+            "type": "discoloration",
+            "severity": 0.4792254555416217,
+            "description": "Verfärbung erkannt (47.9%)"
+          },
+          {
+            "type": "texture_anomaly",
+            "severity": 1.0,
+            "description": "Ungewöhnliche Textur (100.0%)"
+          }
+        ]
+      },
+      "detection_id": 621,
+      "image_hash": "5a9522051c3cec2bbd2f6323fccba32e8fbf3ddcc2b3e2fd46b04c720bc6f866",
+      "learned": true,
+      "quality_guard": {
+        "requires_manual_review": true,
+        "reasons": [
+          "low_reliability"
+        ],
+        "reliability": {
+          "accuracy_rate": 0.5,
+          "total_samples": 0,
+          "reliability": 0.2,
+          "data_sufficient": false
+        },
+        "confusion": {
+          "total_feedback": 0,
+          "wrong_rate": 0.0,
+          "top_confusions": [],
+          "risk_level": "unknown"
+        }
+      },
+      "bbox_area_ratio": 0.024020724826388888,
+      "class_threshold": 0.4,
+      "class_risk_policy": {
+        "is_high_risk": false,
+        "is_medium_risk": false,
+        "risk_penalty": 0.0,
+        "effective_threshold": 0.6
+      },
+      "web_knowledge": {
+        "available": false,
+        "hints": [],
+        "confidence": 0.0
+      },
+      "waste_sorting": {
+        "bin": "RESTMÜLL",
+        "bin_description": "Schwarze Tonne / Restmülltonne",
+        "material": "unknown",
+        "recyclable": false,
+        "confidence": 0.6052143087001454,
+        "decision_quality": 0.4836500160901017,
+        "reasoning": [
+          "Objekt 'truck' ist primär: RESTMÜLL"
+        ],
+        "warnings": [],
+        "special_disposal": null,
+        "condition_affected_decision": false,
+        "requires_manual_review": true,
+        "review_reasons": [
+          "low_confidence_postcheck",
+          "low_decision_quality",
+          "low_reliability",
+          "unknown_object"
+        ],
+        "action": "MANUAL_CHECK_REQUIRED",
+        "recommended_bin": null,
+        "safe_fallback_bin": "RESTMÜLL",
+        "hard_safety_applied": true,
+        "verification": {
+          "consistency_checked": true,
+          "corrected": false,
+          "issues": []
+        }
+      },
+      "requires_manual_review": true,
+      "user_action": "MANUAL_CHECK_REQUIRED",
+      "adaptive_policy_mode": "cold_start_safe",
+      "confidence_final": 0.6062915921211243,
+      "confidence_class_threshold": 0.6,
+      "validation_layers_passed": 7,
+      "bbox_model": [
+        321.0,
+        53.0,
+        482.0,
+        119.0
+      ],
+      "framing_focus": {
+        "applied": false,
+        "reason": "post_output_skip"
+      },
+      "framing_quality": 0.963,
+      "framing_needs_improvement": false
+    }
+  ]
+}

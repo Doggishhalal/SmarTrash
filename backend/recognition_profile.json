@@ -1,0 +1,34 @@
+{
+  "profile_name": "best_quality_yolox_l",
+  "model_family": "YOLOX",
+  "model_variant": "yolox_l",
+  "enabled_features": {
+    "tta": true,
+    "multiscale": true,
+    "flip_augmentation": true,
+    "rescue_pass": true,
+    "output_framing": true,
+    "knowledge_enrichment": true,
+    "learning_focus": true,
+    "auto_retrain": true,
+    "battery_safety": true
+  },
+  "multiscale_scales": [0.75, 1.0, 1.25, 1.5],
+  "public_data_sources": [
+    "COCO",
+    "TACO",
+    "Open Images",
+    "Roboflow Waste",
+    "Wikidata",
+    "OpenFoodFacts",
+    "OpenStreetMap Tags",
+    "Wikimedia Commons"
+  ],
+  "quality_targets": {
+    "min_detection_confidence": 0.60,
+    "min_framing_quality": 0.62,
+    "min_tta_support_ratio_handheld": 0.18,
+    "min_tta_support_ratio_default": 0.34
+  },
+  "notes": "Use YOLOX-L and all free knowledge sources with local-first validation."
+}

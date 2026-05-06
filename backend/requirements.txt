@@ -1,0 +1,29 @@
+# FastAPI server
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+pydantic>=2.0.0
+
+# YOLOX & Detection
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+psutil>=5.9.0
+loguru>=0.7.0
+tqdm>=4.65.0
+tabulate>=0.9.0
+pycocotools>=2.0.6
+
+# Knowledge & Web Features
+requests>=2.31.0
+
+# Scheduling (optional, für automated exports/cleanup)
+apscheduler>=3.10.0
+
+# Database (SQLite ist builtin, aber ggf. für Migration)
+# sqlite3 (included in Python)
+
+# Development/Testing (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0

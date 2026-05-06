@@ -1,0 +1,5153 @@
+{
+  "objects": {
+    "person": {
+      "source": "COCO",
+      "coco_id": 0,
+      "confidence": 0.95
+    },
+    "bicycle": {
+      "source": "OpenImages",
+      "coco_id": 1,
+      "confidence": 0.85,
+      "german_name": "Fahrrad"
+    },
+    "car": {
+      "source": "COCO",
+      "coco_id": 2,
+      "confidence": 0.95
+    },
+    "motorcycle": {
+      "source": "COCO",
+      "coco_id": 3,
+      "confidence": 0.95
+    },
+    "airplane": {
+      "source": "COCO",
+      "coco_id": 4,
+      "confidence": 0.95
+    },
+    "bus": {
+      "source": "COCO",
+      "coco_id": 5,
+      "confidence": 0.95
+    },
+    "train": {
+      "source": "COCO",
+      "coco_id": 6,
+      "confidence": 0.95
+    },
+    "truck": {
+      "source": "COCO",
+      "coco_id": 7,
+      "confidence": 0.95
+    },
+    "boat": {
+      "source": "COCO",
+      "coco_id": 8,
+      "confidence": 0.95
+    },
+    "traffic light": {
+      "source": "COCO",
+      "coco_id": 9,
+      "confidence": 0.95
+    },
+    "fire hydrant": {
+      "source": "COCO",
+      "coco_id": 10,
+      "confidence": 0.95
+    },
+    "stop sign": {
+      "source": "COCO",
+      "coco_id": 11,
+      "confidence": 0.95
+    },
+    "parking meter": {
+      "source": "COCO",
+      "coco_id": 12,
+      "confidence": 0.95
+    },
+    "bench": {
+      "source": "COCO",
+      "coco_id": 13,
+      "confidence": 0.95
+    },
+    "cat": {
+      "source": "COCO",
+      "coco_id": 14,
+      "confidence": 0.95
+    },
+    "dog": {
+      "source": "COCO",
+      "coco_id": 15,
+      "confidence": 0.95
+    },
+    "horse": {
+      "source": "COCO",
+      "coco_id": 16,
+      "confidence": 0.95
+    },
+    "sheep": {
+      "source": "COCO",
+      "coco_id": 17,
+      "confidence": 0.95
+    },
+    "cow": {
+      "source": "COCO",
+      "coco_id": 18,
+      "confidence": 0.95
+    },
+    "elephant": {
+      "source": "COCO",
+      "coco_id": 19,
+      "confidence": 0.95
+    },
+    "bear": {
+      "source": "COCO",
+      "coco_id": 20,
+      "confidence": 0.95
+    },
+    "zebra": {
+      "source": "COCO",
+      "coco_id": 21,
+      "confidence": 0.95
+    },
+    "giraffe": {
+      "source": "COCO",
+      "coco_id": 22,
+      "confidence": 0.95
+    },
+    "backpack": {
+      "source": "COCO",
+      "coco_id": 23,
+      "confidence": 0.95
+    },
+    "umbrella": {
+      "source": "COCO",
+      "coco_id": 24,
+      "confidence": 0.95
+    },
+    "handbag": {
+      "source": "COCO",
+      "coco_id": 25,
+      "confidence": 0.95
+    },
+    "tie": {
+      "source": "COCO",
+      "coco_id": 26,
+      "confidence": 0.95
+    },
+    "suitcase": {
+      "source": "COCO",
+      "coco_id": 27,
+      "confidence": 0.95
+    },
+    "frisbee": {
+      "source": "COCO",
+      "coco_id": 28,
+      "confidence": 0.95
+    },
+    "skis": {
+      "source": "COCO",
+      "coco_id": 29,
+      "confidence": 0.95
+    },
+    "snowboard": {
+      "source": "OpenImages",
+      "coco_id": 30,
+      "confidence": 0.85,
+      "german_name": "Snowboard"
+    },
+    "sports ball": {
+      "source": "COCO",
+      "coco_id": 31,
+      "confidence": 0.95
+    },
+    "kite": {
+      "source": "COCO",
+      "coco_id": 32,
+      "confidence": 0.95
+    },
+    "baseball bat": {
+      "source": "OpenImages",
+      "coco_id": 33,
+      "confidence": 0.85,
+      "german_name": "Baseballschläger"
+    },
+    "baseball glove": {
+      "source": "COCO",
+      "coco_id": 34,
+      "confidence": 0.95
+    },
+    "skateboard": {
+      "source": "OpenImages",
+      "coco_id": 35,
+      "confidence": 0.85,
+      "german_name": "Skateboard"
+    },
+    "surfboard": {
+      "source": "COCO",
+      "coco_id": 36,
+      "confidence": 0.95
+    },
+    "tennis racket": {
+      "source": "COCO",
+      "coco_id": 37,
+      "confidence": 0.95
+    },
+    "bottle": {
+      "source": "COCO",
+      "coco_id": 38,
+      "confidence": 0.95
+    },
+    "wine glass": {
+      "source": "OpenImages",
+      "coco_id": 39,
+      "confidence": 0.85,
+      "german_name": "Weinglas"
+    },
+    "cup": {
+      "source": "OpenImages",
+      "coco_id": 40,
+      "confidence": 0.85,
+      "german_name": "Tasse"
+    },
+    "fork": {
+      "source": "OpenImages",
+      "coco_id": 41,
+      "confidence": 0.85,
+      "german_name": "Gabel"
+    },
+    "knife": {
+      "source": "OpenImages",
+      "coco_id": 42,
+      "confidence": 0.85,
+      "german_name": "Messer"
+    },
+    "spoon": {
+      "source": "OpenImages",
+      "coco_id": 43,
+      "confidence": 0.85,
+      "german_name": "Löffel"
+    },
+    "bowl": {
+      "source": "OpenImages",
+      "coco_id": 44,
+      "confidence": 0.85,
+      "german_name": "Schüssel"
+    },
+    "banana": {
+      "source": "OpenImages",
+      "coco_id": 45,
+      "confidence": 0.85,
+      "german_name": "Banane"
+    },
+    "apple": {
+      "source": "brand_names",
+      "coco_id": 46,
+      "confidence": 0.85,
+      "german_name": "Apfel",
+      "type": "brand"
+    },
+    "sandwich": {
+      "source": "COCO",
+      "coco_id": 47,
+      "confidence": 0.95
+    },
+    "orange": {
+      "source": "OpenImages",
+      "coco_id": 48,
+      "confidence": 0.85,
+      "german_name": "Orange"
+    },
+    "broccoli": {
+      "source": "OpenImages",
+      "coco_id": 49,
+      "confidence": 0.85,
+      "german_name": "Brokkoli"
+    },
+    "carrot": {
+      "source": "OpenImages",
+      "coco_id": 50,
+      "confidence": 0.85,
+      "german_name": "Karotte"
+    },
+    "hot dog": {
+      "source": "COCO",
+      "coco_id": 51,
+      "confidence": 0.95
+    },
+    "pizza": {
+      "source": "OpenImages",
+      "coco_id": 52,
+      "confidence": 0.85,
+      "german_name": "Pizza"
+    },
+    "donut": {
+      "source": "COCO",
+      "coco_id": 53,
+      "confidence": 0.95
+    },
+    "cake": {
+      "source": "COCO",
+      "coco_id": 54,
+      "confidence": 0.95
+    },
+    "chair": {
+      "source": "OpenImages",
+      "coco_id": 55,
+      "confidence": 0.85,
+      "german_name": "Stuhl"
+    },
+    "couch": {
+      "source": "OpenImages",
+      "coco_id": 56,
+      "confidence": 0.85,
+      "german_name": "Couch"
+    },
+    "potted plant": {
+      "source": "COCO",
+      "coco_id": 57,
+      "confidence": 0.95
+    },
+    "bed": {
+      "source": "OpenImages",
+      "coco_id": 58,
+      "confidence": 0.85,
+      "german_name": "Bett"
+    },
+    "dining table": {
+      "source": "ImageNet",
+      "coco_id": 59,
+      "confidence": 0.8,
+      "german_name": "Esstisch"
+    },
+    "toilet": {
+      "source": "OpenImages",
+      "coco_id": 60,
+      "confidence": 0.85,
+      "german_name": "Toilette"
+    },
+    "tv": {
+      "source": "COCO",
+      "coco_id": 61,
+      "confidence": 0.95
+    },
+    "laptop": {
+      "source": "OpenImages",
+      "coco_id": 62,
+      "confidence": 0.85,
+      "german_name": "Laptop"
+    },
+    "mouse": {
+      "source": "OpenImages",
+      "coco_id": 63,
+      "confidence": 0.85,
+      "german_name": "Maus"
+    },
+    "remote": {
+      "source": "COCO",
+      "coco_id": 64,
+      "confidence": 0.95
+    },
+    "keyboard": {
+      "source": "OpenImages",
+      "coco_id": 65,
+      "confidence": 0.85,
+      "german_name": "Tastatur"
+    },
+    "microwave": {
+      "source": "OpenImages",
+      "coco_id": 66,
+      "confidence": 0.85,
+      "german_name": "Mikrowelle"
+    },
+    "oven": {
+      "source": "OpenImages",
+      "coco_id": 67,
+      "confidence": 0.85,
+      "german_name": "Ofen"
+    },
+    "toaster": {
+      "source": "OpenImages",
+      "coco_id": 68,
+      "confidence": 0.85,
+      "german_name": "Toaster"
+    },
+    "sink": {
+      "source": "OpenImages",
+      "coco_id": 69,
+      "confidence": 0.85,
+      "german_name": "Spüle"
+    },
+    "refrigerator": {
+      "source": "OpenImages",
+      "coco_id": 70,
+      "confidence": 0.85,
+      "german_name": "Kühlschrank"
+    },
+    "book": {
+      "source": "OpenImages",
+      "coco_id": 71,
+      "confidence": 0.85,
+      "german_name": "Buch"
+    },
+    "clock": {
+      "source": "OpenImages",
+      "coco_id": 72,
+      "confidence": 0.85,
+      "german_name": "Uhr"
+    },
+    "vase": {
+      "source": "COCO",
+      "coco_id": 73,
+      "confidence": 0.95
+    },
+    "scissors": {
+      "source": "COCO",
+      "coco_id": 74,
+      "confidence": 0.95
+    },
+    "teddy bear": {
+      "source": "COCO",
+      "coco_id": 75,
+      "confidence": 0.95
+    },
+    "hair drier": {
+      "source": "COCO",
+      "coco_id": 76,
+      "confidence": 0.95
+    },
+    "toothbrush": {
+      "source": "COCO",
+      "coco_id": 77,
+      "confidence": 0.95
+    },
+    "blanket": {
+      "source": "OpenImages",
+      "coco_id": 78,
+      "confidence": 0.85,
+      "german_name": "Decke"
+    },
+    "pillow": {
+      "source": "COCO",
+      "coco_id": 79,
+      "confidence": 0.95
+    },
+    "box": {
+      "source": "OpenImages",
+      "german_name": "Verpackungsbox",
+      "confidence": 0.85
+    },
+    "carton": {
+      "source": "OpenImages",
+      "german_name": "Karton",
+      "confidence": 0.85
+    },
+    "plastic bottle": {
+      "source": "OpenImages",
+      "german_name": "Plastikflasche",
+      "confidence": 0.85
+    },
+    "glass bottle": {
+      "source": "OpenImages",
+      "german_name": "Glasflasche",
+      "confidence": 0.85
+    },
+    "can": {
+      "source": "OpenImages",
+      "german_name": "Dose",
+      "confidence": 0.85
+    },
+    "jar": {
+      "source": "OpenImages",
+      "german_name": "Glas",
+      "confidence": 0.85
+    },
+    "bag": {
+      "source": "OpenImages",
+      "german_name": "Tasche/Beutel",
+      "confidence": 0.85
+    },
+    "plastic bag": {
+      "source": "OpenImages",
+      "german_name": "Plastiktasche",
+      "confidence": 0.85
+    },
+    "shopping bag": {
+      "source": "OpenImages",
+      "german_name": "Einkaufstasche",
+      "confidence": 0.85
+    },
+    "garbage bag": {
+      "source": "OpenImages",
+      "german_name": "Mülltüte",
+      "confidence": 0.85
+    },
+    "paper bag": {
+      "source": "OpenImages",
+      "german_name": "Papiertüte",
+      "confidence": 0.85
+    },
+    "paper cup": {
+      "source": "OpenImages",
+      "german_name": "Papiertasse",
+      "confidence": 0.85
+    },
+    "styrofoam cup": {
+      "source": "OpenImages",
+      "german_name": "Styroporbehälter",
+      "confidence": 0.85
+    },
+    "foam cup": {
+      "source": "OpenImages",
+      "german_name": "Schaumstoffbecher",
+      "confidence": 0.85
+    },
+    "strawberry": {
+      "source": "OpenImages",
+      "german_name": "Erdbeere",
+      "confidence": 0.85
+    },
+    "blueberry": {
+      "source": "OpenImages",
+      "german_name": "Blaubeere",
+      "confidence": 0.85
+    },
+    "grape": {
+      "source": "OpenImages",
+      "german_name": "Traube",
+      "confidence": 0.85
+    },
+    "watermelon": {
+      "source": "OpenImages",
+      "german_name": "Wassermelone",
+      "confidence": 0.85
+    },
+    "potato": {
+      "source": "OpenImages",
+      "german_name": "Kartoffel",
+      "confidence": 0.85
+    },
+    "tomato": {
+      "source": "OpenImages",
+      "german_name": "Tomate",
+      "confidence": 0.85
+    },
+    "cucumber": {
+      "source": "OpenImages",
+      "german_name": "Gurke",
+      "confidence": 0.85
+    },
+    "pepper": {
+      "source": "OpenImages",
+      "german_name": "Paprika",
+      "confidence": 0.85
+    },
+    "onion": {
+      "source": "OpenImages",
+      "german_name": "Zwiebel",
+      "confidence": 0.85
+    },
+    "garlic": {
+      "source": "OpenImages",
+      "german_name": "Knoblauch",
+      "confidence": 0.85
+    },
+    "lettuce": {
+      "source": "OpenImages",
+      "german_name": "Salat",
+      "confidence": 0.85
+    },
+    "food waste": {
+      "source": "OpenImages",
+      "german_name": "Essensreste",
+      "confidence": 0.85
+    },
+    "leftovers": {
+      "source": "OpenImages",
+      "german_name": "Essensreste",
+      "confidence": 0.85
+    },
+    "bread": {
+      "source": "OpenImages",
+      "german_name": "Brot",
+      "confidence": 0.85
+    },
+    "pasta": {
+      "source": "OpenImages",
+      "german_name": "Pasta",
+      "confidence": 0.85
+    },
+    "meat": {
+      "source": "special_category",
+      "german_name": "Fleisch",
+      "confidence": 0.85,
+      "category": "organic"
+    },
+    "fish": {
+      "source": "special_category",
+      "german_name": "Fisch",
+      "confidence": 0.85,
+      "category": "organic"
+    },
+    "chicken": {
+      "source": "OpenImages",
+      "german_name": "Hähnchen",
+      "confidence": 0.85
+    },
+    "egg": {
+      "source": "OpenImages",
+      "german_name": "Ei",
+      "confidence": 0.85
+    },
+    "cheese": {
+      "source": "OpenImages",
+      "german_name": "Käse",
+      "confidence": 0.85
+    },
+    "yogurt": {
+      "source": "OpenImages",
+      "german_name": "Joghurt",
+      "confidence": 0.85
+    },
+    "milk": {
+      "source": "OpenImages",
+      "german_name": "Milch",
+      "confidence": 0.85
+    },
+    "butter": {
+      "source": "OpenImages",
+      "german_name": "Butter",
+      "confidence": 0.85
+    },
+    "oil": {
+      "source": "special_category",
+      "german_name": "Öl",
+      "confidence": 0.85,
+      "category": "hazardous"
+    },
+    "newspaper": {
+      "source": "OpenImages",
+      "german_name": "Zeitung",
+      "confidence": 0.85
+    },
+    "magazine": {
+      "source": "OpenImages",
+      "german_name": "Zeitschrift",
+      "confidence": 0.85
+    },
+    "paper": {
+      "source": "OpenImages",
+      "german_name": "Papier",
+      "confidence": 0.85
+    },
+    "cardboard": {
+      "source": "OpenImages",
+      "german_name": "Karton",
+      "confidence": 0.85
+    },
+    "corrugated cardboard": {
+      "source": "OpenImages",
+      "german_name": "Wellpappe",
+      "confidence": 0.85
+    },
+    "envelope": {
+      "source": "OpenImages",
+      "german_name": "Umschlag",
+      "confidence": 0.85
+    },
+    "napkin": {
+      "source": "OpenImages",
+      "german_name": "Serviette",
+      "confidence": 0.85
+    },
+    "tissue": {
+      "source": "OpenImages",
+      "german_name": "Taschentuch",
+      "confidence": 0.85
+    },
+    "paper towel": {
+      "source": "OpenImages",
+      "german_name": "Küchenrolle",
+      "confidence": 0.85
+    },
+    "toilet paper": {
+      "source": "OpenImages",
+      "german_name": "Toilettenpapier",
+      "confidence": 0.85
+    },
+    "glass": {
+      "source": "special_category",
+      "german_name": "Glas",
+      "confidence": 0.85,
+      "category": "fragile"
+    },
+    "beer glass": {
+      "source": "OpenImages",
+      "german_name": "Bierglas",
+      "confidence": 0.85
+    },
+    "glass jar": {
+      "source": "OpenImages",
+      "german_name": "Glasgefäß",
+      "confidence": 0.85
+    },
+    "mirror": {
+      "source": "special_category",
+      "german_name": "Spiegel",
+      "confidence": 0.85,
+      "category": "fragile"
+    },
+    "window": {
+      "source": "OpenImages",
+      "german_name": "Fenster",
+      "confidence": 0.85
+    },
+    "smartphone": {
+      "source": "OpenImages",
+      "german_name": "Smartphone",
+      "confidence": 0.85
+    },
+    "phone": {
+      "source": "OpenImages",
+      "german_name": "Telefon",
+      "confidence": 0.85
+    },
+    "mobile phone": {
+      "source": "OpenImages",
+      "german_name": "Handy",
+      "confidence": 0.85
+    },
+    "desktop computer": {
+      "source": "ImageNet",
+      "german_name": "Desktop-Computer",
+      "confidence": 0.8
+    },
+    "tablet": {
+      "source": "OpenImages",
+      "german_name": "Tablet",
+      "confidence": 0.85
+    },
+    "monitor": {
+      "source": "OpenImages",
+      "german_name": "Monitor",
+      "confidence": 0.85
+    },
+    "printer": {
+      "source": "OpenImages",
+      "german_name": "Drucker",
+      "confidence": 0.85
+    },
+    "scanner": {
+      "source": "OpenImages",
+      "german_name": "Scanner",
+      "confidence": 0.85
+    },
+    "camera": {
+      "source": "OpenImages",
+      "german_name": "Kamera",
+      "confidence": 0.85
+    },
+    "camcorder": {
+      "source": "OpenImages",
+      "german_name": "Videokamera",
+      "confidence": 0.85
+    },
+    "headphones": {
+      "source": "OpenImages",
+      "german_name": "Kopfhörer",
+      "confidence": 0.85
+    },
+    "speaker": {
+      "source": "OpenImages",
+      "german_name": "Lautsprecher",
+      "confidence": 0.85
+    },
+    "microphone": {
+      "source": "OpenImages",
+      "german_name": "Mikrofon",
+      "confidence": 0.85
+    },
+    "video game console": {
+      "source": "OpenImages",
+      "german_name": "Spielkonsole",
+      "confidence": 0.85
+    },
+    "video game controller": {
+      "source": "OpenImages",
+      "german_name": "Spielcontroller",
+      "confidence": 0.85
+    },
+    "charger": {
+      "source": "OpenImages",
+      "german_name": "Ladegerät",
+      "confidence": 0.85
+    },
+    "cable": {
+      "source": "OpenImages",
+      "german_name": "Kabel",
+      "confidence": 0.85
+    },
+    "usb": {
+      "source": "OpenImages",
+      "german_name": "USB-Kabel",
+      "confidence": 0.85
+    },
+    "power adapter": {
+      "source": "OpenImages",
+      "german_name": "Netzteil",
+      "confidence": 0.85
+    },
+    "battery": {
+      "source": "special_category",
+      "german_name": "Batterie",
+      "confidence": 0.85,
+      "category": "hazardous"
+    },
+    "remote control": {
+      "source": "OpenImages",
+      "german_name": "Fernbedienung",
+      "confidence": 0.85
+    },
+    "smart watch": {
+      "source": "OpenImages",
+      "german_name": "Smartwatch",
+      "confidence": 0.85
+    },
+    "earbuds": {
+      "source": "OpenImages",
+      "german_name": "Ohrhörer",
+      "confidence": 0.85
+    },
+    "kettle": {
+      "source": "OpenImages",
+      "german_name": "Wasserkocher",
+      "confidence": 0.85
+    },
+    "blender": {
+      "source": "OpenImages",
+      "german_name": "Mixer",
+      "confidence": 0.85
+    },
+    "coffee maker": {
+      "source": "OpenImages",
+      "german_name": "Kaffeemaschine",
+      "confidence": 0.85
+    },
+    "washing machine": {
+      "source": "OpenImages",
+      "german_name": "Waschmaschine",
+      "confidence": 0.85
+    },
+    "dishwasher": {
+      "source": "OpenImages",
+      "german_name": "Spülmaschine",
+      "confidence": 0.85
+    },
+    "vacuum": {
+      "source": "OpenImages",
+      "german_name": "Staubsauger",
+      "confidence": 0.85
+    },
+    "hair dryer": {
+      "source": "OpenImages",
+      "german_name": "Föhn",
+      "confidence": 0.85
+    },
+    "iron": {
+      "source": "special_category",
+      "german_name": "Eisen",
+      "confidence": 0.85,
+      "category": "heavy"
+    },
+    "shirt": {
+      "source": "OpenImages",
+      "german_name": "Hemd",
+      "confidence": 0.85
+    },
+    "pants": {
+      "source": "OpenImages",
+      "german_name": "Hose",
+      "confidence": 0.85
+    },
+    "dress": {
+      "source": "OpenImages",
+      "german_name": "Kleid",
+      "confidence": 0.85
+    },
+    "jacket": {
+      "source": "OpenImages",
+      "german_name": "Jacke",
+      "confidence": 0.85
+    },
+    "coat": {
+      "source": "OpenImages",
+      "german_name": "Mantel",
+      "confidence": 0.85
+    },
+    "sweater": {
+      "source": "OpenImages",
+      "german_name": "Pullover",
+      "confidence": 0.85
+    },
+    "sock": {
+      "source": "OpenImages",
+      "german_name": "Socke",
+      "confidence": 0.85
+    },
+    "shoe": {
+      "source": "OpenImages",
+      "german_name": "Schuh",
+      "confidence": 0.85
+    },
+    "boot": {
+      "source": "OpenImages",
+      "german_name": "Stiefel",
+      "confidence": 0.85
+    },
+    "hat": {
+      "source": "OpenImages",
+      "german_name": "Hut",
+      "confidence": 0.85
+    },
+    "cap": {
+      "source": "OpenImages",
+      "german_name": "Kappe",
+      "confidence": 0.85
+    },
+    "scarf": {
+      "source": "OpenImages",
+      "german_name": "Schal",
+      "confidence": 0.85
+    },
+    "gloves": {
+      "source": "OpenImages",
+      "german_name": "Handschuhe",
+      "confidence": 0.85
+    },
+    "underwear": {
+      "source": "OpenImages",
+      "german_name": "Unterwäsche",
+      "confidence": 0.85
+    },
+    "towel": {
+      "source": "OpenImages",
+      "german_name": "Handtuch",
+      "confidence": 0.85
+    },
+    "curtain": {
+      "source": "OpenImages",
+      "german_name": "Gardine",
+      "confidence": 0.85
+    },
+    "bedsheet": {
+      "source": "OpenImages",
+      "german_name": "Betttuch",
+      "confidence": 0.85
+    },
+    "stool": {
+      "source": "OpenImages",
+      "german_name": "Hocker",
+      "confidence": 0.85
+    },
+    "table": {
+      "source": "OpenImages",
+      "german_name": "Tisch",
+      "confidence": 0.85
+    },
+    "desk": {
+      "source": "OpenImages",
+      "german_name": "Schreibtisch",
+      "confidence": 0.85
+    },
+    "sofa": {
+      "source": "OpenImages",
+      "german_name": "Sofa",
+      "confidence": 0.85
+    },
+    "cabinet": {
+      "source": "OpenImages",
+      "german_name": "Schrank",
+      "confidence": 0.85
+    },
+    "shelf": {
+      "source": "OpenImages",
+      "german_name": "Regal",
+      "confidence": 0.85
+    },
+    "nightstand": {
+      "source": "OpenImages",
+      "german_name": "Nachttisch",
+      "confidence": 0.85
+    },
+    "wardrobe": {
+      "source": "OpenImages",
+      "german_name": "Kleiderschrank",
+      "confidence": 0.85
+    },
+    "dresser": {
+      "source": "OpenImages",
+      "german_name": "Kommode",
+      "confidence": 0.85
+    },
+    "bookcase": {
+      "source": "OpenImages",
+      "german_name": "Bücherschrank",
+      "confidence": 0.85
+    },
+    "wood": {
+      "source": "OpenImages",
+      "german_name": "Holz",
+      "confidence": 0.85
+    },
+    "wooden board": {
+      "source": "OpenImages",
+      "german_name": "Holzbrett",
+      "confidence": 0.85
+    },
+    "aluminum foil": {
+      "source": "OpenImages",
+      "german_name": "Alufolie",
+      "confidence": 0.85
+    },
+    "metal can": {
+      "source": "OpenImages",
+      "german_name": "Metalldose",
+      "confidence": 0.85
+    },
+    "steel": {
+      "source": "OpenImages",
+      "german_name": "Stahl",
+      "confidence": 0.85
+    },
+    "copper": {
+      "source": "OpenImages",
+      "german_name": "Kupfer",
+      "confidence": 0.85
+    },
+    "tin": {
+      "source": "OpenImages",
+      "german_name": "Zinn",
+      "confidence": 0.85
+    },
+    "nail": {
+      "source": "OpenImages",
+      "german_name": "Nagel",
+      "confidence": 0.85
+    },
+    "screw": {
+      "source": "OpenImages",
+      "german_name": "Schraube",
+      "confidence": 0.85
+    },
+    "bolt": {
+      "source": "OpenImages",
+      "german_name": "Bolzen",
+      "confidence": 0.85
+    },
+    "wire": {
+      "source": "OpenImages",
+      "german_name": "Draht",
+      "confidence": 0.85
+    },
+    "chain": {
+      "source": "OpenImages",
+      "german_name": "Kette",
+      "confidence": 0.85
+    },
+    "plastic": {
+      "source": "OpenImages",
+      "german_name": "Kunststoff",
+      "confidence": 0.85
+    },
+    "rubber": {
+      "source": "OpenImages",
+      "german_name": "Gummi",
+      "confidence": 0.85
+    },
+    "foam": {
+      "source": "OpenImages",
+      "german_name": "Schaum",
+      "confidence": 0.85
+    },
+    "latex": {
+      "source": "OpenImages",
+      "german_name": "Latex",
+      "confidence": 0.85
+    },
+    "vinyl": {
+      "source": "OpenImages",
+      "german_name": "Vinyl",
+      "confidence": 0.85
+    },
+    "leather": {
+      "source": "OpenImages",
+      "german_name": "Leder",
+      "confidence": 0.85
+    },
+    "cotton": {
+      "source": "OpenImages",
+      "german_name": "Baumwolle",
+      "confidence": 0.85
+    },
+    "polyester": {
+      "source": "OpenImages",
+      "german_name": "Polyester",
+      "confidence": 0.85
+    },
+    "nylon": {
+      "source": "OpenImages",
+      "german_name": "Nylon",
+      "confidence": 0.85
+    },
+    "ceramic": {
+      "source": "special_category",
+      "german_name": "Keramik",
+      "confidence": 0.85,
+      "category": "fragile"
+    },
+    "porcelain": {
+      "source": "special_category",
+      "german_name": "Porzellan",
+      "confidence": 0.85,
+      "category": "fragile"
+    },
+    "stone": {
+      "source": "OpenImages",
+      "german_name": "Stein",
+      "confidence": 0.85
+    },
+    "concrete": {
+      "source": "OpenImages",
+      "german_name": "Beton",
+      "confidence": 0.85
+    },
+    "brick": {
+      "source": "OpenImages",
+      "german_name": "Ziegel",
+      "confidence": 0.85
+    },
+    "marble": {
+      "source": "OpenImages",
+      "german_name": "Marmor",
+      "confidence": 0.85
+    },
+    "granite": {
+      "source": "OpenImages",
+      "german_name": "Granit",
+      "confidence": 0.85
+    },
+    "postcard": {
+      "source": "OpenImages",
+      "german_name": "Postkarte",
+      "confidence": 0.85
+    },
+    "greeting card": {
+      "source": "OpenImages",
+      "german_name": "Grußkarte",
+      "confidence": 0.85
+    },
+    "receipt": {
+      "source": "OpenImages",
+      "german_name": "Quittung",
+      "confidence": 0.85
+    },
+    "ticket": {
+      "source": "OpenImages",
+      "german_name": "Fahrkarte",
+      "confidence": 0.85
+    },
+    "label": {
+      "source": "OpenImages",
+      "german_name": "Etikett",
+      "confidence": 0.85
+    },
+    "sticker": {
+      "source": "OpenImages",
+      "german_name": "Aufkleber",
+      "confidence": 0.85
+    },
+    "poster": {
+      "source": "OpenImages",
+      "german_name": "Plakat",
+      "confidence": 0.85
+    },
+    "ball": {
+      "source": "OpenImages",
+      "german_name": "Ball",
+      "confidence": 0.85
+    },
+    "soccer ball": {
+      "source": "OpenImages",
+      "german_name": "Fußball",
+      "confidence": 0.85
+    },
+    "basketball": {
+      "source": "OpenImages",
+      "german_name": "Basketball",
+      "confidence": 0.85
+    },
+    "tennis ball": {
+      "source": "OpenImages",
+      "german_name": "Tennisball",
+      "confidence": 0.85
+    },
+    "racket": {
+      "source": "OpenImages",
+      "german_name": "Schläger",
+      "confidence": 0.85
+    },
+    "roller skate": {
+      "source": "OpenImages",
+      "german_name": "Rollschuh",
+      "confidence": 0.85
+    },
+    "ski": {
+      "source": "OpenImages",
+      "german_name": "Ski",
+      "confidence": 0.85
+    },
+    "plant": {
+      "source": "OpenImages",
+      "german_name": "Pflanze",
+      "confidence": 0.85
+    },
+    "flower": {
+      "source": "OpenImages",
+      "german_name": "Blume",
+      "confidence": 0.85
+    },
+    "tree": {
+      "source": "OpenImages",
+      "german_name": "Baum",
+      "confidence": 0.85
+    },
+    "grass": {
+      "source": "OpenImages",
+      "german_name": "Gras",
+      "confidence": 0.85
+    },
+    "leaf": {
+      "source": "OpenImages",
+      "german_name": "Blatt",
+      "confidence": 0.85
+    },
+    "branch": {
+      "source": "OpenImages",
+      "german_name": "Ast",
+      "confidence": 0.85
+    },
+    "bark": {
+      "source": "OpenImages",
+      "german_name": "Baumrinde",
+      "confidence": 0.85
+    },
+    "log": {
+      "source": "OpenImages",
+      "german_name": "Stamm",
+      "confidence": 0.85
+    },
+    "soil": {
+      "source": "OpenImages",
+      "german_name": "Erde",
+      "confidence": 0.85
+    },
+    "mulch": {
+      "source": "OpenImages",
+      "german_name": "Mulch",
+      "confidence": 0.85
+    },
+    "compost": {
+      "source": "OpenImages",
+      "german_name": "Kompost",
+      "confidence": 0.85
+    },
+    "pot": {
+      "source": "OpenImages",
+      "german_name": "Topf",
+      "confidence": 0.85
+    },
+    "pan": {
+      "source": "OpenImages",
+      "german_name": "Pfanne",
+      "confidence": 0.85
+    },
+    "plate": {
+      "source": "OpenImages",
+      "german_name": "Teller",
+      "confidence": 0.85
+    },
+    "bathtub": {
+      "source": "OpenImages",
+      "german_name": "Badewanne",
+      "confidence": 0.85
+    },
+    "shower": {
+      "source": "OpenImages",
+      "german_name": "Dusche",
+      "confidence": 0.85
+    },
+    "door": {
+      "source": "OpenImages",
+      "german_name": "Tür",
+      "confidence": 0.85
+    },
+    "wall": {
+      "source": "OpenImages",
+      "german_name": "Wand",
+      "confidence": 0.85
+    },
+    "floor": {
+      "source": "OpenImages",
+      "german_name": "Boden",
+      "confidence": 0.85
+    },
+    "ceiling": {
+      "source": "OpenImages",
+      "german_name": "Decke",
+      "confidence": 0.85
+    },
+    "light bulb": {
+      "source": "special_category",
+      "german_name": "Glühbirne",
+      "confidence": 0.85,
+      "category": "fragile"
+    },
+    "lamp": {
+      "source": "OpenImages",
+      "german_name": "Lampe",
+      "confidence": 0.85
+    },
+    "candle": {
+      "source": "OpenImages",
+      "german_name": "Kerze",
+      "confidence": 0.85
+    },
+    "picture frame": {
+      "source": "OpenImages",
+      "german_name": "Bilderrahmen",
+      "confidence": 0.85
+    },
+    "water bottle": {
+      "source": "ImageNet",
+      "german_name": "Wasserflasche",
+      "confidence": 0.8
+    },
+    "cola bottle": {
+      "source": "ImageNet",
+      "german_name": "Colaflasche",
+      "confidence": 0.8
+    },
+    "beer bottle": {
+      "source": "ImageNet",
+      "german_name": "Bierflasche",
+      "confidence": 0.8
+    },
+    "wine bottle": {
+      "source": "ImageNet",
+      "german_name": "Weinflasche",
+      "confidence": 0.8
+    },
+    "plastic container": {
+      "source": "ImageNet",
+      "german_name": "Kunststoffbehälter",
+      "confidence": 0.8
+    },
+    "glass container": {
+      "source": "ImageNet",
+      "german_name": "Glasscontainer",
+      "confidence": 0.8
+    },
+    "tin can": {
+      "source": "ImageNet",
+      "german_name": "Blechdose",
+      "confidence": 0.8
+    },
+    "aluminum can": {
+      "source": "ImageNet",
+      "german_name": "Aluminiumdose",
+      "confidence": 0.8
+    },
+    "paper box": {
+      "source": "ImageNet",
+      "german_name": "Papierbox",
+      "confidence": 0.8
+    },
+    "cardboard box": {
+      "source": "ImageNet",
+      "german_name": "Kartonbox",
+      "confidence": 0.8
+    },
+    "apple fruit": {
+      "source": "ImageNet",
+      "german_name": "Apfel",
+      "confidence": 0.8
+    },
+    "orange fruit": {
+      "source": "ImageNet",
+      "german_name": "Orange",
+      "confidence": 0.8
+    },
+    "banana fruit": {
+      "source": "ImageNet",
+      "german_name": "Banane",
+      "confidence": 0.8
+    },
+    "cherry fruit": {
+      "source": "ImageNet",
+      "german_name": "Kirsche",
+      "confidence": 0.8
+    },
+    "pear fruit": {
+      "source": "ImageNet",
+      "german_name": "Birne",
+      "confidence": 0.8
+    },
+    "plum fruit": {
+      "source": "ImageNet",
+      "german_name": "Pflaume",
+      "confidence": 0.8
+    },
+    "strawberry fruit": {
+      "source": "ImageNet",
+      "german_name": "Erdbeere",
+      "confidence": 0.8
+    },
+    "raspberry fruit": {
+      "source": "ImageNet",
+      "german_name": "Himbeere",
+      "confidence": 0.8
+    },
+    "blueberry fruit": {
+      "source": "ImageNet",
+      "german_name": "Blaubeere",
+      "confidence": 0.8
+    },
+    "blackberry fruit": {
+      "source": "ImageNet",
+      "german_name": "Brombeere",
+      "confidence": 0.8
+    },
+    "peach fruit": {
+      "source": "ImageNet",
+      "german_name": "Pfirsich",
+      "confidence": 0.8
+    },
+    "melon fruit": {
+      "source": "ImageNet",
+      "german_name": "Melone",
+      "confidence": 0.8
+    },
+    "kiwi fruit": {
+      "source": "ImageNet",
+      "german_name": "Kiwi",
+      "confidence": 0.8
+    },
+    "mango fruit": {
+      "source": "ImageNet",
+      "german_name": "Mango",
+      "confidence": 0.8
+    },
+    "pineapple fruit": {
+      "source": "ImageNet",
+      "german_name": "Ananas",
+      "confidence": 0.8
+    },
+    "coconut fruit": {
+      "source": "ImageNet",
+      "german_name": "Kokosnuss",
+      "confidence": 0.8
+    },
+    "avocado fruit": {
+      "source": "ImageNet",
+      "german_name": "Avocado",
+      "confidence": 0.8
+    },
+    "tomato vegetable": {
+      "source": "ImageNet",
+      "german_name": "Tomate",
+      "confidence": 0.8
+    },
+    "pepper vegetable": {
+      "source": "ImageNet",
+      "german_name": "Paprika",
+      "confidence": 0.8
+    },
+    "carrot vegetable": {
+      "source": "ImageNet",
+      "german_name": "Karotte",
+      "confidence": 0.8
+    },
+    "cucumber vegetable": {
+      "source": "ImageNet",
+      "german_name": "Gurke",
+      "confidence": 0.8
+    },
+    "lettuce vegetable": {
+      "source": "ImageNet",
+      "german_name": "Kopfsalat",
+      "confidence": 0.8
+    },
+    "spinach vegetable": {
+      "source": "ImageNet",
+      "german_name": "Spinat",
+      "confidence": 0.8
+    },
+    "broccoli vegetable": {
+      "source": "ImageNet",
+      "german_name": "Brokkoli",
+      "confidence": 0.8
+    },
+    "cauliflower vegetable": {
+      "source": "ImageNet",
+      "german_name": "Blumenkohl",
+      "confidence": 0.8
+    },
+    "potato vegetable": {
+      "source": "ImageNet",
+      "german_name": "Kartoffel",
+      "confidence": 0.8
+    },
+    "onion vegetable": {
+      "source": "ImageNet",
+      "german_name": "Zwiebel",
+      "confidence": 0.8
+    },
+    "garlic vegetable": {
+      "source": "ImageNet",
+      "german_name": "Knoblauch",
+      "confidence": 0.8
+    },
+    "corn vegetable": {
+      "source": "ImageNet",
+      "german_name": "Mais",
+      "confidence": 0.8
+    },
+    "peas vegetable": {
+      "source": "ImageNet",
+      "german_name": "Erbsen",
+      "confidence": 0.8
+    },
+    "green beans vegetable": {
+      "source": "ImageNet",
+      "german_name": "Grüne Bohnen",
+      "confidence": 0.8
+    },
+    "iphone": {
+      "source": "brand_names",
+      "german_name": "iPhone",
+      "confidence": 0.8,
+      "type": "brand"
+    },
+    "android phone": {
+      "source": "ImageNet",
+      "german_name": "Android-Telefon",
+      "confidence": 0.8
+    },
+    "laptop computer": {
+      "source": "ImageNet",
+      "german_name": "Laptop-Computer",
+      "confidence": 0.8
+    },
+    "tablet device": {
+      "source": "ImageNet",
+      "german_name": "Tablet-Gerät",
+      "confidence": 0.8
+    },
+    "smartwatch device": {
+      "source": "ImageNet",
+      "german_name": "Smartwatch",
+      "confidence": 0.8
+    },
+    "headphone device": {
+      "source": "ImageNet",
+      "german_name": "Kopfhörer",
+      "confidence": 0.8
+    },
+    "speaker device": {
+      "source": "ImageNet",
+      "german_name": "Lautsprecher",
+      "confidence": 0.8
+    },
+    "keyboard device": {
+      "source": "ImageNet",
+      "german_name": "Tastatur",
+      "confidence": 0.8
+    },
+    "mouse device": {
+      "source": "ImageNet",
+      "german_name": "Computermaus",
+      "confidence": 0.8
+    },
+    "wooden chair": {
+      "source": "ImageNet",
+      "german_name": "Holzstuhl",
+      "confidence": 0.8
+    },
+    "metal chair": {
+      "source": "ImageNet",
+      "german_name": "Metallstuhl",
+      "confidence": 0.8
+    },
+    "plastic chair": {
+      "source": "ImageNet",
+      "german_name": "Kunststoffstuhl",
+      "confidence": 0.8
+    },
+    "office desk": {
+      "source": "ImageNet",
+      "german_name": "Schreibtisch",
+      "confidence": 0.8
+    },
+    "coffee table": {
+      "source": "ImageNet",
+      "german_name": "Couchtisch",
+      "confidence": 0.8
+    },
+    "bed frame": {
+      "source": "ImageNet",
+      "german_name": "Bettrahmen",
+      "confidence": 0.8
+    },
+    "bookshelf": {
+      "source": "ImageNet",
+      "german_name": "Bücherregal",
+      "confidence": 0.8
+    },
+    "cabinet furniture": {
+      "source": "ImageNet",
+      "german_name": "Schrank",
+      "confidence": 0.8
+    },
+    "sofa furniture": {
+      "source": "ImageNet",
+      "german_name": "Sofa",
+      "confidence": 0.8
+    },
+    "cotton shirt": {
+      "source": "ImageNet",
+      "german_name": "Baumwollhemd",
+      "confidence": 0.8
+    },
+    "denim pants": {
+      "source": "ImageNet",
+      "german_name": "Jeans",
+      "confidence": 0.8
+    },
+    "woolen coat": {
+      "source": "ImageNet",
+      "german_name": "Wollmantel",
+      "confidence": 0.8
+    },
+    "running shoe": {
+      "source": "ImageNet",
+      "german_name": "Laufschuh",
+      "confidence": 0.8
+    },
+    "leather shoe": {
+      "source": "ImageNet",
+      "german_name": "Lederschuh",
+      "confidence": 0.8
+    },
+    "sport shoe": {
+      "source": "ImageNet",
+      "german_name": "Sportschuh",
+      "confidence": 0.8
+    },
+    "oak tree": {
+      "source": "ImageNet",
+      "german_name": "Eichbaum",
+      "confidence": 0.8
+    },
+    "pine tree": {
+      "source": "ImageNet",
+      "german_name": "Kieferbaum",
+      "confidence": 0.8
+    },
+    "birch tree": {
+      "source": "ImageNet",
+      "german_name": "Birkenbaum",
+      "confidence": 0.8
+    },
+    "maple tree": {
+      "source": "ImageNet",
+      "german_name": "Ahornbaum",
+      "confidence": 0.8
+    },
+    "willow tree": {
+      "source": "ImageNet",
+      "german_name": "Weidenbaum",
+      "confidence": 0.8
+    },
+    "rose flower": {
+      "source": "ImageNet",
+      "german_name": "Rose",
+      "confidence": 0.8
+    },
+    "tulip flower": {
+      "source": "ImageNet",
+      "german_name": "Tulpe",
+      "confidence": 0.8
+    },
+    "sunflower flower": {
+      "source": "ImageNet",
+      "german_name": "Sonnenblume",
+      "confidence": 0.8
+    },
+    "daisy flower": {
+      "source": "ImageNet",
+      "german_name": "Gänseblümchen",
+      "confidence": 0.8
+    },
+    "drink bottle": {
+      "source": "synonym",
+      "synonym_of": "bottle",
+      "confidence": 0.9
+    },
+    "beverage bottle": {
+      "source": "synonym",
+      "synonym_of": "bottle",
+      "confidence": 0.9
+    },
+    "container": {
+      "source": "synonym",
+      "synonym_of": "bottle",
+      "confidence": 0.9
+    },
+    "flask": {
+      "source": "synonym",
+      "synonym_of": "bottle",
+      "confidence": 0.9
+    },
+    "drinking bottle": {
+      "source": "synonym",
+      "synonym_of": "water bottle",
+      "confidence": 0.9
+    },
+    "water container": {
+      "source": "synonym",
+      "synonym_of": "water bottle",
+      "confidence": 0.9
+    },
+    "reusable bottle": {
+      "source": "synonym",
+      "synonym_of": "water bottle",
+      "confidence": 0.9
+    },
+    "plastic water bottle": {
+      "source": "synonym",
+      "synonym_of": "water bottle",
+      "confidence": 0.9
+    },
+    "soda bottle": {
+      "source": "synonym",
+      "synonym_of": "cola bottle",
+      "confidence": 0.9
+    },
+    "soft drink bottle": {
+      "source": "synonym",
+      "synonym_of": "cola bottle",
+      "confidence": 0.9
+    },
+    "coke bottle": {
+      "source": "synonym",
+      "synonym_of": "cola bottle",
+      "confidence": 0.9
+    },
+    "fizzy drink bottle": {
+      "source": "synonym",
+      "synonym_of": "cola bottle",
+      "confidence": 0.9
+    },
+    "ale bottle": {
+      "source": "synonym",
+      "synonym_of": "beer bottle",
+      "confidence": 0.9
+    },
+    "lager bottle": {
+      "source": "synonym",
+      "synonym_of": "beer bottle",
+      "confidence": 0.9
+    },
+    "pilsner bottle": {
+      "source": "synonym",
+      "synonym_of": "beer bottle",
+      "confidence": 0.9
+    },
+    "wine container": {
+      "source": "synonym",
+      "synonym_of": "wine bottle",
+      "confidence": 0.9
+    },
+    "bottle of wine": {
+      "source": "synonym",
+      "synonym_of": "wine bottle",
+      "confidence": 0.9
+    },
+    "bottle glass": {
+      "source": "synonym",
+      "synonym_of": "glass bottle",
+      "confidence": 0.9
+    },
+    "glass drinking bottle": {
+      "source": "synonym",
+      "synonym_of": "glass bottle",
+      "confidence": 0.9
+    },
+    "drinking cup": {
+      "source": "synonym",
+      "synonym_of": "cup",
+      "confidence": 0.9
+    },
+    "coffee cup": {
+      "source": "synonym",
+      "synonym_of": "cup",
+      "confidence": 0.9
+    },
+    "tea cup": {
+      "source": "synonym",
+      "synonym_of": "cup",
+      "confidence": 0.9
+    },
+    "mug": {
+      "source": "synonym",
+      "synonym_of": "cup",
+      "confidence": 0.9
+    },
+    "tumbler": {
+      "source": "synonym",
+      "synonym_of": "cup",
+      "confidence": 0.9
+    },
+    "beaker": {
+      "source": "synonym",
+      "synonym_of": "cup",
+      "confidence": 0.9
+    },
+    "drinking glass": {
+      "source": "synonym",
+      "synonym_of": "glass",
+      "confidence": 0.9
+    },
+    "clear glass": {
+      "source": "synonym",
+      "synonym_of": "glass",
+      "confidence": 0.9
+    },
+    "coffee mug": {
+      "source": "synonym",
+      "synonym_of": "mug",
+      "confidence": 0.9
+    },
+    "tea mug": {
+      "source": "synonym",
+      "synonym_of": "mug",
+      "confidence": 0.9
+    },
+    "ceramic mug": {
+      "source": "synonym",
+      "synonym_of": "mug",
+      "confidence": 0.9
+    },
+    "pottery mug": {
+      "source": "synonym",
+      "synonym_of": "mug",
+      "confidence": 0.9
+    },
+    "disposable cup": {
+      "source": "synonym",
+      "synonym_of": "paper cup",
+      "confidence": 0.9
+    },
+    "takeaway cup": {
+      "source": "synonym",
+      "synonym_of": "paper cup",
+      "confidence": 0.9
+    },
+    "dinner plate": {
+      "source": "synonym",
+      "synonym_of": "plate",
+      "confidence": 0.9
+    },
+    "serving plate": {
+      "source": "synonym",
+      "synonym_of": "plate",
+      "confidence": 0.9
+    },
+    "ceramic plate": {
+      "source": "synonym",
+      "synonym_of": "plate",
+      "confidence": 0.9
+    },
+    "porcelain plate": {
+      "source": "synonym",
+      "synonym_of": "plate",
+      "confidence": 0.9
+    },
+    "cereal bowl": {
+      "source": "synonym",
+      "synonym_of": "bowl",
+      "confidence": 0.9
+    },
+    "soup bowl": {
+      "source": "synonym",
+      "synonym_of": "bowl",
+      "confidence": 0.9
+    },
+    "ceramic bowl": {
+      "source": "synonym",
+      "synonym_of": "bowl",
+      "confidence": 0.9
+    },
+    "porcelain bowl": {
+      "source": "synonym",
+      "synonym_of": "bowl",
+      "confidence": 0.9
+    },
+    "dish": {
+      "source": "synonym_base"
+    },
+    "ceramic dish": {
+      "source": "synonym",
+      "synonym_of": "dish",
+      "confidence": 0.9
+    },
+    "serving dish": {
+      "source": "synonym",
+      "synonym_of": "dish",
+      "confidence": 0.9
+    },
+    "porcelain dish": {
+      "source": "synonym",
+      "synonym_of": "dish",
+      "confidence": 0.9
+    },
+    "table fork": {
+      "source": "synonym",
+      "synonym_of": "fork",
+      "confidence": 0.9
+    },
+    "dinner fork": {
+      "source": "synonym",
+      "synonym_of": "fork",
+      "confidence": 0.9
+    },
+    "salad fork": {
+      "source": "synonym",
+      "synonym_of": "fork",
+      "confidence": 0.9
+    },
+    "plastic fork": {
+      "source": "synonym",
+      "synonym_of": "fork",
+      "confidence": 0.9
+    },
+    "dinner knife": {
+      "source": "synonym",
+      "synonym_of": "knife",
+      "confidence": 0.9
+    },
+    "table knife": {
+      "source": "synonym",
+      "synonym_of": "knife",
+      "confidence": 0.9
+    },
+    "butter knife": {
+      "source": "synonym",
+      "synonym_of": "knife",
+      "confidence": 0.9
+    },
+    "plastic knife": {
+      "source": "synonym",
+      "synonym_of": "knife",
+      "confidence": 0.9
+    },
+    "table spoon": {
+      "source": "synonym",
+      "synonym_of": "spoon",
+      "confidence": 0.9
+    },
+    "soup spoon": {
+      "source": "synonym",
+      "synonym_of": "spoon",
+      "confidence": 0.9
+    },
+    "dessert spoon": {
+      "source": "synonym",
+      "synonym_of": "spoon",
+      "confidence": 0.9
+    },
+    "plastic spoon": {
+      "source": "synonym",
+      "synonym_of": "spoon",
+      "confidence": 0.9
+    },
+    "utensil": {
+      "source": "synonym_base"
+    },
+    "eating utensil": {
+      "source": "synonym",
+      "synonym_of": "utensil",
+      "confidence": 0.9
+    },
+    "flatware": {
+      "source": "synonym",
+      "synonym_of": "utensil",
+      "confidence": 0.9
+    },
+    "silverware": {
+      "source": "synonym",
+      "synonym_of": "utensil",
+      "confidence": 0.9
+    },
+    "red apple": {
+      "source": "synonym",
+      "synonym_of": "apple",
+      "confidence": 0.9
+    },
+    "green apple": {
+      "source": "synonym",
+      "synonym_of": "apple",
+      "confidence": 0.9
+    },
+    "pomaceous fruit": {
+      "source": "synonym",
+      "synonym_of": "apple",
+      "confidence": 0.9
+    },
+    "yellow banana": {
+      "source": "synonym",
+      "synonym_of": "banana",
+      "confidence": 0.9
+    },
+    "plantain": {
+      "source": "synonym",
+      "synonym_of": "banana",
+      "confidence": 0.9
+    },
+    "citrus fruit": {
+      "source": "synonym",
+      "synonym_of": "orange",
+      "confidence": 0.9
+    },
+    "orange citrus": {
+      "source": "synonym",
+      "synonym_of": "orange",
+      "confidence": 0.9
+    },
+    "red berry": {
+      "source": "synonym",
+      "synonym_of": "strawberry",
+      "confidence": 0.9
+    },
+    "berry": {
+      "source": "synonym",
+      "synonym_of": "strawberry",
+      "confidence": 0.9
+    },
+    "grape fruit": {
+      "source": "synonym",
+      "synonym_of": "grape",
+      "confidence": 0.9
+    },
+    "grape cluster": {
+      "source": "synonym",
+      "synonym_of": "grape",
+      "confidence": 0.9
+    },
+    "wine grape": {
+      "source": "synonym",
+      "synonym_of": "grape",
+      "confidence": 0.9
+    },
+    "melon": {
+      "source": "synonym",
+      "synonym_of": "watermelon",
+      "confidence": 0.9
+    },
+    "summer melon": {
+      "source": "synonym",
+      "synonym_of": "watermelon",
+      "confidence": 0.9
+    },
+    "seedless watermelon": {
+      "source": "synonym",
+      "synonym_of": "watermelon",
+      "confidence": 0.9
+    },
+    "pear": {
+      "source": "synonym_base"
+    },
+    "pyrus fruit": {
+      "source": "synonym",
+      "synonym_of": "pear",
+      "confidence": 0.9
+    },
+    "peach": {
+      "source": "synonym_base"
+    },
+    "stone fruit": {
+      "source": "synonym",
+      "synonym_of": "peach",
+      "confidence": 0.9
+    },
+    "plum": {
+      "source": "synonym_base"
+    },
+    "purple plum": {
+      "source": "synonym",
+      "synonym_of": "plum",
+      "confidence": 0.9
+    },
+    "prune": {
+      "source": "synonym",
+      "synonym_of": "plum",
+      "confidence": 0.9
+    },
+    "pineapple": {
+      "source": "synonym_base"
+    },
+    "tropical fruit": {
+      "source": "synonym",
+      "synonym_of": "pineapple",
+      "confidence": 0.9
+    },
+    "ananas": {
+      "source": "synonym",
+      "synonym_of": "pineapple",
+      "confidence": 0.9
+    },
+    "kiwi": {
+      "source": "synonym_base"
+    },
+    "chinese gooseberry": {
+      "source": "synonym",
+      "synonym_of": "kiwi",
+      "confidence": 0.9
+    },
+    "mango": {
+      "source": "synonym_base"
+    },
+    "orange carrot": {
+      "source": "synonym",
+      "synonym_of": "carrot",
+      "confidence": 0.9
+    },
+    "root vegetable": {
+      "source": "synonym",
+      "synonym_of": "carrot",
+      "confidence": 0.9
+    },
+    "vegetable": {
+      "source": "special_category",
+      "synonym_of": "carrot",
+      "confidence": 0.9,
+      "category": "organic"
+    },
+    "broccoli florets": {
+      "source": "synonym",
+      "synonym_of": "broccoli",
+      "confidence": 0.9
+    },
+    "green broccoli": {
+      "source": "synonym",
+      "synonym_of": "broccoli",
+      "confidence": 0.9
+    },
+    "cruciferous vegetable": {
+      "source": "synonym",
+      "synonym_of": "broccoli",
+      "confidence": 0.9
+    },
+    "red tomato": {
+      "source": "synonym",
+      "synonym_of": "tomato",
+      "confidence": 0.9
+    },
+    "tomato fruit": {
+      "source": "synonym",
+      "synonym_of": "tomato",
+      "confidence": 0.9
+    },
+    "bell pepper": {
+      "source": "synonym",
+      "synonym_of": "pepper",
+      "confidence": 0.9
+    },
+    "paprika": {
+      "source": "synonym",
+      "synonym_of": "pepper",
+      "confidence": 0.9
+    },
+    "capsicum": {
+      "source": "synonym",
+      "synonym_of": "pepper",
+      "confidence": 0.9
+    },
+    "green cucumber": {
+      "source": "synonym",
+      "synonym_of": "cucumber",
+      "confidence": 0.9
+    },
+    "salad lettuce": {
+      "source": "synonym",
+      "synonym_of": "lettuce",
+      "confidence": 0.9
+    },
+    "green lettuce": {
+      "source": "synonym",
+      "synonym_of": "lettuce",
+      "confidence": 0.9
+    },
+    "head lettuce": {
+      "source": "synonym",
+      "synonym_of": "lettuce",
+      "confidence": 0.9
+    },
+    "potato tuber": {
+      "source": "synonym",
+      "synonym_of": "potato",
+      "confidence": 0.9
+    },
+    "spud": {
+      "source": "synonym",
+      "synonym_of": "potato",
+      "confidence": 0.9
+    },
+    "bulb onion": {
+      "source": "synonym",
+      "synonym_of": "onion",
+      "confidence": 0.9
+    },
+    "yellow onion": {
+      "source": "synonym",
+      "synonym_of": "onion",
+      "confidence": 0.9
+    },
+    "red onion": {
+      "source": "synonym",
+      "synonym_of": "onion",
+      "confidence": 0.9
+    },
+    "garlic clove": {
+      "source": "synonym",
+      "synonym_of": "garlic",
+      "confidence": 0.9
+    },
+    "garlic bulb": {
+      "source": "synonym",
+      "synonym_of": "garlic",
+      "confidence": 0.9
+    },
+    "spinach": {
+      "source": "synonym_base"
+    },
+    "leafy green": {
+      "source": "synonym",
+      "synonym_of": "spinach",
+      "confidence": 0.9
+    },
+    "spinach leaf": {
+      "source": "synonym",
+      "synonym_of": "spinach",
+      "confidence": 0.9
+    },
+    "pizza slice": {
+      "source": "synonym",
+      "synonym_of": "pizza",
+      "confidence": 0.9
+    },
+    "italian pizza": {
+      "source": "synonym",
+      "synonym_of": "pizza",
+      "confidence": 0.9
+    },
+    "pizza pie": {
+      "source": "synonym",
+      "synonym_of": "pizza",
+      "confidence": 0.9
+    },
+    "sliced bread": {
+      "source": "synonym",
+      "synonym_of": "bread",
+      "confidence": 0.9
+    },
+    "whole bread": {
+      "source": "synonym",
+      "synonym_of": "bread",
+      "confidence": 0.9
+    },
+    "bread loaf": {
+      "source": "synonym",
+      "synonym_of": "bread",
+      "confidence": 0.9
+    },
+    "pasta noodles": {
+      "source": "synonym",
+      "synonym_of": "pasta",
+      "confidence": 0.9
+    },
+    "spaghetti": {
+      "source": "synonym",
+      "synonym_of": "pasta",
+      "confidence": 0.9
+    },
+    "macaroni": {
+      "source": "synonym",
+      "synonym_of": "pasta",
+      "confidence": 0.9
+    },
+    "red meat": {
+      "source": "synonym",
+      "synonym_of": "meat",
+      "confidence": 0.9
+    },
+    "cooked meat": {
+      "source": "synonym",
+      "synonym_of": "meat",
+      "confidence": 0.9
+    },
+    "meat piece": {
+      "source": "synonym",
+      "synonym_of": "meat",
+      "confidence": 0.9
+    },
+    "cooked fish": {
+      "source": "synonym",
+      "synonym_of": "fish",
+      "confidence": 0.9
+    },
+    "fish fillet": {
+      "source": "synonym",
+      "synonym_of": "fish",
+      "confidence": 0.9
+    },
+    "fish piece": {
+      "source": "synonym",
+      "synonym_of": "fish",
+      "confidence": 0.9
+    },
+    "cooked chicken": {
+      "source": "synonym",
+      "synonym_of": "chicken",
+      "confidence": 0.9
+    },
+    "chicken breast": {
+      "source": "synonym",
+      "synonym_of": "chicken",
+      "confidence": 0.9
+    },
+    "chicken piece": {
+      "source": "synonym",
+      "synonym_of": "chicken",
+      "confidence": 0.9
+    },
+    "chicken egg": {
+      "source": "synonym",
+      "synonym_of": "egg",
+      "confidence": 0.9
+    },
+    "raw egg": {
+      "source": "synonym",
+      "synonym_of": "egg",
+      "confidence": 0.9
+    },
+    "boiled egg": {
+      "source": "synonym",
+      "synonym_of": "egg",
+      "confidence": 0.9
+    },
+    "cheese block": {
+      "source": "synonym",
+      "synonym_of": "cheese",
+      "confidence": 0.9
+    },
+    "cheese slice": {
+      "source": "synonym",
+      "synonym_of": "cheese",
+      "confidence": 0.9
+    },
+    "dairy cheese": {
+      "source": "synonym",
+      "synonym_of": "cheese",
+      "confidence": 0.9
+    },
+    "yogurt container": {
+      "source": "synonym",
+      "synonym_of": "yogurt",
+      "confidence": 0.9
+    },
+    "dairy yogurt": {
+      "source": "synonym",
+      "synonym_of": "yogurt",
+      "confidence": 0.9
+    },
+    "yogurt cup": {
+      "source": "synonym",
+      "synonym_of": "yogurt",
+      "confidence": 0.9
+    },
+    "white paper": {
+      "source": "synonym",
+      "synonym_of": "paper",
+      "confidence": 0.9
+    },
+    "sheet paper": {
+      "source": "synonym",
+      "synonym_of": "paper",
+      "confidence": 0.9
+    },
+    "tissue paper": {
+      "source": "synonym",
+      "synonym_of": "paper",
+      "confidence": 0.9
+    },
+    "paper sheet": {
+      "source": "synonym",
+      "synonym_of": "paper",
+      "confidence": 0.9
+    },
+    "daily newspaper": {
+      "source": "synonym",
+      "synonym_of": "newspaper",
+      "confidence": 0.9
+    },
+    "newspaper page": {
+      "source": "synonym",
+      "synonym_of": "newspaper",
+      "confidence": 0.9
+    },
+    "newsprint": {
+      "source": "synonym",
+      "synonym_of": "newspaper",
+      "confidence": 0.9
+    },
+    "magazine issue": {
+      "source": "synonym",
+      "synonym_of": "magazine",
+      "confidence": 0.9
+    },
+    "glossy magazine": {
+      "source": "synonym",
+      "synonym_of": "magazine",
+      "confidence": 0.9
+    },
+    "hardcover book": {
+      "source": "synonym",
+      "synonym_of": "book",
+      "confidence": 0.9
+    },
+    "paperback book": {
+      "source": "synonym",
+      "synonym_of": "book",
+      "confidence": 0.9
+    },
+    "textbook": {
+      "source": "synonym",
+      "synonym_of": "book",
+      "confidence": 0.9
+    },
+    "brown cardboard": {
+      "source": "synonym",
+      "synonym_of": "cardboard",
+      "confidence": 0.9
+    },
+    "packaging box": {
+      "source": "synonym",
+      "synonym_of": "box",
+      "confidence": 0.9
+    },
+    "product box": {
+      "source": "synonym",
+      "synonym_of": "box",
+      "confidence": 0.9
+    },
+    "paper envelope": {
+      "source": "synonym",
+      "synonym_of": "envelope",
+      "confidence": 0.9
+    },
+    "mailing envelope": {
+      "source": "synonym",
+      "synonym_of": "envelope",
+      "confidence": 0.9
+    },
+    "paper napkin": {
+      "source": "synonym",
+      "synonym_of": "napkin",
+      "confidence": 0.9
+    },
+    "table napkin": {
+      "source": "synonym",
+      "synonym_of": "napkin",
+      "confidence": 0.9
+    },
+    "serviette": {
+      "source": "synonym",
+      "synonym_of": "napkin",
+      "confidence": 0.9
+    },
+    "facial tissue": {
+      "source": "synonym",
+      "synonym_of": "tissue",
+      "confidence": 0.9
+    },
+    "tissue box": {
+      "source": "synonym",
+      "synonym_of": "tissue",
+      "confidence": 0.9
+    },
+    "mason jar": {
+      "source": "synonym",
+      "synonym_of": "jar",
+      "confidence": 0.9
+    },
+    "storage jar": {
+      "source": "synonym",
+      "synonym_of": "jar",
+      "confidence": 0.9
+    },
+    "flower vase": {
+      "source": "synonym",
+      "synonym_of": "vase",
+      "confidence": 0.9
+    },
+    "decorative vase": {
+      "source": "synonym",
+      "synonym_of": "vase",
+      "confidence": 0.9
+    },
+    "glass vase": {
+      "source": "synonym",
+      "synonym_of": "vase",
+      "confidence": 0.9
+    },
+    "cell phone": {
+      "source": "synonym",
+      "synonym_of": "smartphone",
+      "confidence": 0.9
+    },
+    "portable computer": {
+      "source": "synonym",
+      "synonym_of": "laptop",
+      "confidence": 0.9
+    },
+    "notebook computer": {
+      "source": "synonym",
+      "synonym_of": "laptop",
+      "confidence": 0.9
+    },
+    "ipad": {
+      "source": "synonym",
+      "synonym_of": "tablet",
+      "confidence": 0.9
+    },
+    "android tablet": {
+      "source": "synonym",
+      "synonym_of": "tablet",
+      "confidence": 0.9
+    },
+    "computer monitor": {
+      "source": "synonym",
+      "synonym_of": "monitor",
+      "confidence": 0.9
+    },
+    "display screen": {
+      "source": "synonym",
+      "synonym_of": "monitor",
+      "confidence": 0.9
+    },
+    "lcd monitor": {
+      "source": "synonym",
+      "synonym_of": "monitor",
+      "confidence": 0.9
+    },
+    "computer keyboard": {
+      "source": "synonym",
+      "synonym_of": "keyboard",
+      "confidence": 0.9
+    },
+    "typing keyboard": {
+      "source": "synonym",
+      "synonym_of": "keyboard",
+      "confidence": 0.9
+    },
+    "computer mouse": {
+      "source": "synonym",
+      "synonym_of": "mouse",
+      "confidence": 0.9
+    },
+    "wireless mouse": {
+      "source": "synonym",
+      "synonym_of": "mouse",
+      "confidence": 0.9
+    },
+    "inkjet printer": {
+      "source": "synonym",
+      "synonym_of": "printer",
+      "confidence": 0.9
+    },
+    "laser printer": {
+      "source": "synonym",
+      "synonym_of": "printer",
+      "confidence": 0.9
+    },
+    "office printer": {
+      "source": "synonym",
+      "synonym_of": "printer",
+      "confidence": 0.9
+    },
+    "audio headphones": {
+      "source": "synonym",
+      "synonym_of": "headphones",
+      "confidence": 0.9
+    },
+    "headset": {
+      "source": "synonym",
+      "synonym_of": "headphones",
+      "confidence": 0.9
+    },
+    "over-ear headphones": {
+      "source": "synonym",
+      "synonym_of": "headphones",
+      "confidence": 0.9
+    },
+    "audio speaker": {
+      "source": "synonym",
+      "synonym_of": "speaker",
+      "confidence": 0.9
+    },
+    "bluetooth speaker": {
+      "source": "synonym",
+      "synonym_of": "speaker",
+      "confidence": 0.9
+    },
+    "wireless speaker": {
+      "source": "synonym",
+      "synonym_of": "speaker",
+      "confidence": 0.9
+    },
+    "phone charger": {
+      "source": "synonym",
+      "synonym_of": "charger",
+      "confidence": 0.9
+    },
+    "power charger": {
+      "source": "synonym",
+      "synonym_of": "charger",
+      "confidence": 0.9
+    },
+    "charging cable": {
+      "source": "synonym",
+      "synonym_of": "charger",
+      "confidence": 0.9
+    },
+    "power cable": {
+      "source": "synonym",
+      "synonym_of": "cable",
+      "confidence": 0.9
+    },
+    "usb cable": {
+      "source": "synonym",
+      "synonym_of": "cable",
+      "confidence": 0.9
+    },
+    "rechargeable battery": {
+      "source": "synonym",
+      "synonym_of": "battery",
+      "confidence": 0.9
+    },
+    "alkaline battery": {
+      "source": "synonym",
+      "synonym_of": "battery",
+      "confidence": 0.9
+    },
+    "battery pack": {
+      "source": "synonym",
+      "synonym_of": "battery",
+      "confidence": 0.9
+    },
+    "digital camera": {
+      "source": "synonym",
+      "synonym_of": "camera",
+      "confidence": 0.9
+    },
+    "action camera": {
+      "source": "synonym",
+      "synonym_of": "camera",
+      "confidence": 0.9
+    },
+    "video camera": {
+      "source": "synonym",
+      "synonym_of": "camera",
+      "confidence": 0.9
+    },
+    "t-shirt": {
+      "source": "synonym",
+      "synonym_of": "shirt",
+      "confidence": 0.9
+    },
+    "dress shirt": {
+      "source": "synonym",
+      "synonym_of": "shirt",
+      "confidence": 0.9
+    },
+    "polo shirt": {
+      "source": "synonym",
+      "synonym_of": "shirt",
+      "confidence": 0.9
+    },
+    "trousers": {
+      "source": "synonym",
+      "synonym_of": "pants",
+      "confidence": 0.9
+    },
+    "jeans": {
+      "source": "synonym",
+      "synonym_of": "pants",
+      "confidence": 0.9
+    },
+    "slacks": {
+      "source": "synonym",
+      "synonym_of": "pants",
+      "confidence": 0.9
+    },
+    "sundress": {
+      "source": "synonym",
+      "synonym_of": "dress",
+      "confidence": 0.9
+    },
+    "evening dress": {
+      "source": "synonym",
+      "synonym_of": "dress",
+      "confidence": 0.9
+    },
+    "casual dress": {
+      "source": "synonym",
+      "synonym_of": "dress",
+      "confidence": 0.9
+    },
+    "winter jacket": {
+      "source": "synonym",
+      "synonym_of": "jacket",
+      "confidence": 0.9
+    },
+    "leather jacket": {
+      "source": "synonym",
+      "synonym_of": "jacket",
+      "confidence": 0.9
+    },
+    "denim jacket": {
+      "source": "synonym",
+      "synonym_of": "jacket",
+      "confidence": 0.9
+    },
+    "winter coat": {
+      "source": "synonym",
+      "synonym_of": "coat",
+      "confidence": 0.9
+    },
+    "raincoat": {
+      "source": "synonym",
+      "synonym_of": "coat",
+      "confidence": 0.9
+    },
+    "parka": {
+      "source": "synonym",
+      "synonym_of": "coat",
+      "confidence": 0.9
+    },
+    "pullover": {
+      "source": "synonym",
+      "synonym_of": "sweater",
+      "confidence": 0.9
+    },
+    "crewneck sweater": {
+      "source": "synonym",
+      "synonym_of": "sweater",
+      "confidence": 0.9
+    },
+    "wool sweater": {
+      "source": "synonym",
+      "synonym_of": "sweater",
+      "confidence": 0.9
+    },
+    "pair of socks": {
+      "source": "synonym",
+      "synonym_of": "sock",
+      "confidence": 0.9
+    },
+    "cotton sock": {
+      "source": "synonym",
+      "synonym_of": "sock",
+      "confidence": 0.9
+    },
+    "wool sock": {
+      "source": "synonym",
+      "synonym_of": "sock",
+      "confidence": 0.9
+    },
+    "footwear": {
+      "source": "synonym",
+      "synonym_of": "shoe",
+      "confidence": 0.9
+    },
+    "sneaker": {
+      "source": "synonym",
+      "synonym_of": "shoe",
+      "confidence": 0.9
+    },
+    "athletic shoe": {
+      "source": "synonym",
+      "synonym_of": "shoe",
+      "confidence": 0.9
+    },
+    "winter boot": {
+      "source": "synonym",
+      "synonym_of": "boot",
+      "confidence": 0.9
+    },
+    "rain boot": {
+      "source": "synonym",
+      "synonym_of": "boot",
+      "confidence": 0.9
+    },
+    "hiking boot": {
+      "source": "synonym",
+      "synonym_of": "boot",
+      "confidence": 0.9
+    },
+    "baseball cap": {
+      "source": "synonym",
+      "synonym_of": "hat",
+      "confidence": 0.9
+    },
+    "beanie": {
+      "source": "synonym",
+      "synonym_of": "hat",
+      "confidence": 0.9
+    },
+    "winter hat": {
+      "source": "synonym",
+      "synonym_of": "hat",
+      "confidence": 0.9
+    },
+    "wool scarf": {
+      "source": "synonym",
+      "synonym_of": "scarf",
+      "confidence": 0.9
+    },
+    "winter scarf": {
+      "source": "synonym",
+      "synonym_of": "scarf",
+      "confidence": 0.9
+    },
+    "fabric scarf": {
+      "source": "synonym",
+      "synonym_of": "scarf",
+      "confidence": 0.9
+    },
+    "winter gloves": {
+      "source": "synonym",
+      "synonym_of": "gloves",
+      "confidence": 0.9
+    },
+    "leather gloves": {
+      "source": "synonym",
+      "synonym_of": "gloves",
+      "confidence": 0.9
+    },
+    "wool gloves": {
+      "source": "synonym",
+      "synonym_of": "gloves",
+      "confidence": 0.9
+    },
+    "bath towel": {
+      "source": "synonym",
+      "synonym_of": "towel",
+      "confidence": 0.9
+    },
+    "hand towel": {
+      "source": "synonym",
+      "synonym_of": "towel",
+      "confidence": 0.9
+    },
+    "beach towel": {
+      "source": "synonym",
+      "synonym_of": "towel",
+      "confidence": 0.9
+    },
+    "bed blanket": {
+      "source": "synonym",
+      "synonym_of": "blanket",
+      "confidence": 0.9
+    },
+    "throw blanket": {
+      "source": "synonym",
+      "synonym_of": "blanket",
+      "confidence": 0.9
+    },
+    "fleece blanket": {
+      "source": "synonym",
+      "synonym_of": "blanket",
+      "confidence": 0.9
+    },
+    "office chair": {
+      "source": "synonym",
+      "synonym_of": "chair",
+      "confidence": 0.9
+    },
+    "dining chair": {
+      "source": "synonym",
+      "synonym_of": "chair",
+      "confidence": 0.9
+    },
+    "armchair": {
+      "source": "synonym",
+      "synonym_of": "chair",
+      "confidence": 0.9
+    },
+    "wooden table": {
+      "source": "synonym",
+      "synonym_of": "table",
+      "confidence": 0.9
+    },
+    "computer desk": {
+      "source": "synonym",
+      "synonym_of": "desk",
+      "confidence": 0.9
+    },
+    "writing desk": {
+      "source": "synonym",
+      "synonym_of": "desk",
+      "confidence": 0.9
+    },
+    "bedroom bed": {
+      "source": "synonym",
+      "synonym_of": "bed",
+      "confidence": 0.9
+    },
+    "single bed": {
+      "source": "synonym",
+      "synonym_of": "bed",
+      "confidence": 0.9
+    },
+    "upholstered sofa": {
+      "source": "synonym",
+      "synonym_of": "sofa",
+      "confidence": 0.9
+    },
+    "leather sofa": {
+      "source": "synonym",
+      "synonym_of": "sofa",
+      "confidence": 0.9
+    },
+    "wall shelf": {
+      "source": "synonym",
+      "synonym_of": "shelf",
+      "confidence": 0.9
+    },
+    "storage shelf": {
+      "source": "synonym",
+      "synonym_of": "shelf",
+      "confidence": 0.9
+    },
+    "kitchen cabinet": {
+      "source": "synonym",
+      "synonym_of": "cabinet",
+      "confidence": 0.9
+    },
+    "storage cabinet": {
+      "source": "synonym",
+      "synonym_of": "cabinet",
+      "confidence": 0.9
+    },
+    "wooden cabinet": {
+      "source": "synonym",
+      "synonym_of": "cabinet",
+      "confidence": 0.9
+    },
+    "drawer": {
+      "source": "synonym_base"
+    },
+    "dresser drawer": {
+      "source": "synonym",
+      "synonym_of": "drawer",
+      "confidence": 0.9
+    },
+    "storage drawer": {
+      "source": "synonym",
+      "synonym_of": "drawer",
+      "confidence": 0.9
+    },
+    "beverage can": {
+      "source": "synonym",
+      "synonym_of": "can",
+      "confidence": 0.9
+    },
+    "foil": {
+      "source": "synonym_base"
+    },
+    "kitchen foil": {
+      "source": "synonym",
+      "synonym_of": "foil",
+      "confidence": 0.9
+    },
+    "cooking foil": {
+      "source": "synonym",
+      "synonym_of": "foil",
+      "confidence": 0.9
+    },
+    "iron nail": {
+      "source": "synonym",
+      "synonym_of": "nail",
+      "confidence": 0.9
+    },
+    "steel nail": {
+      "source": "synonym",
+      "synonym_of": "nail",
+      "confidence": 0.9
+    },
+    "fastener": {
+      "source": "synonym",
+      "synonym_of": "nail",
+      "confidence": 0.9
+    },
+    "wood screw": {
+      "source": "synonym",
+      "synonym_of": "screw",
+      "confidence": 0.9
+    },
+    "metal screw": {
+      "source": "synonym",
+      "synonym_of": "screw",
+      "confidence": 0.9
+    },
+    "rubber ball": {
+      "source": "synonym",
+      "synonym_of": "ball",
+      "confidence": 0.9
+    },
+    "play ball": {
+      "source": "synonym",
+      "synonym_of": "ball",
+      "confidence": 0.9
+    },
+    "football": {
+      "source": "synonym",
+      "synonym_of": "soccer ball",
+      "confidence": 0.9
+    },
+    "association football": {
+      "source": "synonym",
+      "synonym_of": "soccer ball",
+      "confidence": 0.9
+    },
+    "basket ball": {
+      "source": "synonym",
+      "synonym_of": "basketball",
+      "confidence": 0.9
+    },
+    "indoor ball": {
+      "source": "synonym",
+      "synonym_of": "basketball",
+      "confidence": 0.9
+    },
+    "yellow ball": {
+      "source": "synonym",
+      "synonym_of": "tennis ball",
+      "confidence": 0.9
+    },
+    "sport ball": {
+      "source": "synonym",
+      "synonym_of": "tennis ball",
+      "confidence": 0.9
+    },
+    "badminton racket": {
+      "source": "synonym",
+      "synonym_of": "racket",
+      "confidence": 0.9
+    },
+    "skate board": {
+      "source": "synonym",
+      "synonym_of": "skateboard",
+      "confidence": 0.9
+    },
+    "board": {
+      "source": "synonym",
+      "synonym_of": "skateboard",
+      "confidence": 0.9
+    },
+    "bike": {
+      "source": "synonym",
+      "synonym_of": "bicycle",
+      "confidence": 0.9
+    },
+    "two-wheeler": {
+      "source": "synonym",
+      "synonym_of": "bicycle",
+      "confidence": 0.9
+    },
+    "houseplant": {
+      "source": "synonym",
+      "synonym_of": "plant",
+      "confidence": 0.9
+    },
+    "indoor plant": {
+      "source": "synonym",
+      "synonym_of": "plant",
+      "confidence": 0.9
+    },
+    "cut flower": {
+      "source": "synonym",
+      "synonym_of": "flower",
+      "confidence": 0.9
+    },
+    "flowering plant": {
+      "source": "synonym",
+      "synonym_of": "flower",
+      "confidence": 0.9
+    },
+    "bloom": {
+      "source": "synonym",
+      "synonym_of": "flower",
+      "confidence": 0.9
+    },
+    "deciduous tree": {
+      "source": "synonym",
+      "synonym_of": "tree",
+      "confidence": 0.9
+    },
+    "evergreen tree": {
+      "source": "synonym",
+      "synonym_of": "tree",
+      "confidence": 0.9
+    },
+    "lawn grass": {
+      "source": "synonym",
+      "synonym_of": "grass",
+      "confidence": 0.9
+    },
+    "green grass": {
+      "source": "synonym",
+      "synonym_of": "grass",
+      "confidence": 0.9
+    },
+    "tree leaf": {
+      "source": "synonym",
+      "synonym_of": "leaf",
+      "confidence": 0.9
+    },
+    "plant leaf": {
+      "source": "synonym",
+      "synonym_of": "leaf",
+      "confidence": 0.9
+    },
+    "plastic material": {
+      "source": "synonym",
+      "synonym_of": "plastic",
+      "confidence": 0.9
+    },
+    "polymer": {
+      "source": "synonym",
+      "synonym_of": "plastic",
+      "confidence": 0.9
+    },
+    "synthetic plastic": {
+      "source": "synonym",
+      "synonym_of": "plastic",
+      "confidence": 0.9
+    },
+    "rubber material": {
+      "source": "synonym",
+      "synonym_of": "rubber",
+      "confidence": 0.9
+    },
+    "latex rubber": {
+      "source": "synonym",
+      "synonym_of": "rubber",
+      "confidence": 0.9
+    },
+    "wooden material": {
+      "source": "synonym",
+      "synonym_of": "wood",
+      "confidence": 0.9
+    },
+    "timber": {
+      "source": "synonym",
+      "synonym_of": "wood",
+      "confidence": 0.9
+    },
+    "lumber": {
+      "source": "synonym",
+      "synonym_of": "wood",
+      "confidence": 0.9
+    },
+    "metal": {
+      "source": "synonym_base"
+    },
+    "metallic material": {
+      "source": "synonym",
+      "synonym_of": "metal",
+      "confidence": 0.9
+    },
+    "ferrous metal": {
+      "source": "synonym",
+      "synonym_of": "metal",
+      "confidence": 0.9
+    },
+    "fabric": {
+      "source": "special_category",
+      "category": "textile"
+    },
+    "textile fabric": {
+      "source": "synonym",
+      "synonym_of": "fabric",
+      "confidence": 0.9
+    },
+    "cloth material": {
+      "source": "synonym",
+      "synonym_of": "fabric",
+      "confidence": 0.9
+    },
+    "genuine leather": {
+      "source": "synonym",
+      "synonym_of": "leather",
+      "confidence": 0.9
+    },
+    "leather material": {
+      "source": "synonym",
+      "synonym_of": "leather",
+      "confidence": 0.9
+    },
+    "paint": {
+      "category": "hazardous",
+      "source": "special_category"
+    },
+    "chemicals": {
+      "category": "hazardous",
+      "source": "special_category"
+    },
+    "pesticide": {
+      "category": "hazardous",
+      "source": "special_category"
+    },
+    "cleaning products": {
+      "category": "hazardous",
+      "source": "special_category"
+    },
+    "electronic waste": {
+      "category": "hazardous",
+      "source": "special_category"
+    },
+    "metal pipes": {
+      "category": "heavy",
+      "source": "special_category"
+    },
+    "machinery": {
+      "category": "heavy",
+      "source": "special_category"
+    },
+    "engine": {
+      "category": "heavy",
+      "source": "special_category"
+    },
+    "motor": {
+      "category": "heavy",
+      "source": "special_category"
+    },
+    "food": {
+      "category": "organic",
+      "source": "special_category"
+    },
+    "fruit": {
+      "category": "organic",
+      "source": "special_category"
+    },
+    "plants": {
+      "category": "organic",
+      "source": "special_category"
+    },
+    "clothing": {
+      "category": "textile",
+      "source": "special_category"
+    },
+    "carpet": {
+      "category": "textile",
+      "source": "special_category"
+    },
+    "textile": {
+      "category": "textile",
+      "source": "special_category"
+    },
+    "upholstery": {
+      "category": "textile",
+      "source": "special_category"
+    },
+    "iphone 13": {
+      "brand": "iphone",
+      "source": "brand_variation"
+    },
+    "iphone 14": {
+      "brand": "iphone",
+      "source": "brand_variation"
+    },
+    "iphone 15": {
+      "brand": "iphone",
+      "source": "brand_variation"
+    },
+    "iphone x": {
+      "brand": "iphone",
+      "source": "brand_variation"
+    },
+    "iphone 12": {
+      "brand": "iphone",
+      "source": "brand_variation"
+    },
+    "samsung": {
+      "type": "brand",
+      "source": "brand_names"
+    },
+    "galaxy s21": {
+      "brand": "samsung",
+      "source": "brand_variation"
+    },
+    "galaxy s22": {
+      "brand": "samsung",
+      "source": "brand_variation"
+    },
+    "galaxy s23": {
+      "brand": "samsung",
+      "source": "brand_variation"
+    },
+    "galaxy a10": {
+      "brand": "samsung",
+      "source": "brand_variation"
+    },
+    "nokia": {
+      "type": "brand",
+      "source": "brand_names"
+    },
+    "nokia 3310": {
+      "brand": "nokia",
+      "source": "brand_variation"
+    },
+    "nokia lumia": {
+      "brand": "nokia",
+      "source": "brand_variation"
+    },
+    "dell": {
+      "type": "brand",
+      "source": "brand_names"
+    },
+    "dell xps": {
+      "brand": "dell",
+      "source": "brand_variation"
+    },
+    "dell inspiron": {
+      "brand": "dell",
+      "source": "brand_variation"
+    },
+    "dell latitude": {
+      "brand": "dell",
+      "source": "brand_variation"
+    },
+    "hp": {
+      "type": "brand",
+      "source": "brand_names"
+    },
+    "hp pavilion": {
+      "brand": "hp",
+      "source": "brand_variation"
+    },
+    "hp envy": {
+      "brand": "hp",
+      "source": "brand_variation"
+    },
+    "hp probook": {
+      "brand": "hp",
+      "source": "brand_variation"
+    },
+    "lenovo": {
+      "type": "brand",
+      "source": "brand_names"
+    },
+    "lenovo thinkpad": {
+      "brand": "lenovo",
+      "source": "brand_variation"
+    },
+    "lenovo yoga": {
+      "brand": "lenovo",
+      "source": "brand_variation"
+    },
+    "lenovo ideapad": {
+      "brand": "lenovo",
+      "source": "brand_variation"
+    },
+    "macbook pro": {
+      "brand": "apple",
+      "source": "brand_variation"
+    },
+    "macbook air": {
+      "brand": "apple",
+      "source": "brand_variation"
+    },
+    "mac mini": {
+      "brand": "apple",
+      "source": "brand_variation"
+    },
+    "coca cola": {
+      "type": "brand",
+      "source": "brand_names"
+    },
+    "coke": {
+      "brand": "coca cola",
+      "source": "brand_variation"
+    },
+    "coca-cola": {
+      "brand": "coca cola",
+      "source": "brand_variation"
+    },
+    "pepsi": {
+      "type": "brand",
+      "source": "brand_names"
+    },
+    "pepsico": {
+      "brand": "pepsi",
+      "source": "brand_variation"
+    },
+    "pepsi cola": {
+      "brand": "pepsi",
+      "source": "brand_variation"
+    },
+    "sprite": {
+      "type": "brand",
+      "source": "brand_names"
+    },
+    "sprite lemon": {
+      "brand": "sprite",
+      "source": "brand_variation"
+    },
+    "fanta": {
+      "type": "brand",
+      "source": "brand_names"
+    },
+    "fanta orange": {
+      "brand": "fanta",
+      "source": "brand_variation"
+    },
+    "fanta grape": {
+      "brand": "fanta",
+      "source": "brand_variation"
+    },
+    "ikea": {
+      "type": "brand",
+      "source": "brand_names"
+    },
+    "ikea chair": {
+      "brand": "ikea",
+      "source": "brand_variation"
+    },
+    "ikea table": {
+      "brand": "ikea",
+      "source": "brand_variation"
+    },
+    "ikea shelf": {
+      "brand": "ikea",
+      "source": "brand_variation"
+    },
+    "sony": {
+      "type": "brand",
+      "source": "brand_names"
+    },
+    "sony television": {
+      "brand": "sony",
+      "source": "brand_variation"
+    },
+    "sony playstation": {
+      "brand": "sony",
+      "source": "brand_variation"
+    },
+    "nintendo": {
+      "type": "brand",
+      "source": "brand_names"
+    },
+    "nintendo switch": {
+      "brand": "nintendo",
+      "source": "brand_variation"
+    },
+    "nintendo console": {
+      "brand": "nintendo",
+      "source": "brand_variation"
+    },
+    "microsoft": {
+      "type": "brand",
+      "source": "brand_names"
+    },
+    "xbox": {
+      "brand": "microsoft",
+      "source": "brand_variation"
+    },
+    "xbox series x": {
+      "brand": "microsoft",
+      "source": "brand_variation"
+    }
+  },
+  "materials": {
+    "plastic": {
+      "subtypes": {
+        "PET": {
+          "density": 1.38,
+          "recyclable": true,
+          "code": 1
+        },
+        "HDPE": {
+          "density": 0.95,
+          "recyclable": true,
+          "code": 2
+        },
+        "PVC": {
+          "density": 1.38,
+          "recyclable": false,
+          "code": 3
+        },
+        "LDPE": {
+          "density": 0.92,
+          "recyclable": true,
+          "code": 4
+        },
+        "PP": {
+          "density": 0.9,
+          "recyclable": true,
+          "code": 5
+        },
+        "PS": {
+          "density": 1.04,
+          "recyclable": false,
+          "code": 6
+        },
+        "Acrylic": {
+          "density": 1.19,
+          "recyclable": false
+        },
+        "Polycarbonate": {
+          "density": 1.2,
+          "recyclable": false
+        },
+        "Polyurethane": {
+          "density": 1.2,
+          "recyclable": false
+        },
+        "Silicone": {
+          "density": 2.2,
+          "recyclable": false
+        }
+      },
+      "contamination_tolerance": "low",
+      "moisture_sensitivity": "low",
+      "max_temp_celsius": 100,
+      "thermal_decomposition_celsius": 250,
+      "biodegradation_years": "400-1000",
+      "color_variations": [
+        "clear",
+        "white",
+        "blue",
+        "brown",
+        "green",
+        "black"
+      ]
+    },
+    "paper": {
+      "subtypes": {
+        "kraft_paper": {
+          "gsm_range": [
+            50,
+            150
+          ],
+          "recyclable": true
+        },
+        "corrugated": {
+          "gsm_range": [
+            100,
+            200
+          ],
+          "recyclable": true
+        },
+        "tissue": {
+          "gsm_range": [
+            15,
+            30
+          ],
+          "recyclable": false
+        },
+        "thermal_paper": {
+          "recyclable": false,
+          "chemical_coating": true
+        },
+        "glossy_paper": {
+          "gsm_range": [
+            90,
+            300
+          ],
+          "recyclable": false
+        },
+        "newsprint": {
+          "gsm_range": [
+            45,
+            55
+          ],
+          "recyclable": true
+        },
+        "cardboard": {
+          "gsm_range": [
+            200,
+            400
+          ],
+          "recyclable": true
+        },
+        "paper_board": {
+          "gsm_range": [
+            150,
+            350
+          ],
+          "recyclable": true
+        },
+        "coated_paper": {
+          "recyclable": false,
+          "coating_type": "plastic_or_wax"
+        },
+        "laminated_paper": {
+          "recyclable": false,
+          "layers": [
+            "paper",
+            "plastic"
+          ]
+        }
+      },
+      "contamination_tolerance": "low",
+      "moisture_sensitivity": "very_high",
+      "max_moisture_content_percent": 12,
+      "acidification_risk": "high",
+      "recycling_cycles": "5-7",
+      "fiber_length_loss_per_cycle_percent": 3
+    },
+    "organic": {
+      "subtypes": {
+        "fruit": {
+          "decomposition_days": [
+            30,
+            90
+          ],
+          "nitrogen_content": "1-2%"
+        },
+        "vegetable": {
+          "decomposition_days": [
+            30,
+            90
+          ],
+          "nitrogen_content": "1-3%"
+        },
+        "meat": {
+          "decomposition_days": [
+            30,
+            180
+          ],
+          "nitrogen_content": "2-3%",
+          "warning": "attracts_animals"
+        },
+        "fish": {
+          "decomposition_days": [
+            30,
+            150
+          ],
+          "nitrogen_content": "3-5%",
+          "warning": "strong_smell"
+        },
+        "grain": {
+          "decomposition_days": [
+            60,
+            120
+          ],
+          "nitrogen_content": "1-2%"
+        },
+        "plant_material": {
+          "decomposition_days": [
+            30,
+            120
+          ],
+          "nitrogen_content": "0.5-1%"
+        },
+        "wood": {
+          "decomposition_days": [
+            180,
+            730
+          ],
+          "nitrogen_content": "0.1-0.5%"
+        },
+        "garden_waste": {
+          "decomposition_days": [
+            60,
+            180
+          ],
+          "nitrogen_content": "0.5-2%"
+        },
+        "coffee_grounds": {
+          "decomposition_days": [
+            30,
+            60
+          ],
+          "nitrogen_content": "2-3%",
+          "beneficial": true
+        },
+        "tea_leaves": {
+          "decomposition_days": [
+            30,
+            60
+          ],
+          "nitrogen_content": "1-2%",
+          "beneficial": true
+        }
+      },
+      "contamination_tolerance": "medium",
+      "moisture_sensitivity": "low",
+      "optimal_temperature_celsius": 55,
+      "c_to_n_ratio_optimal": 25,
+      "composting_time_weeks": [
+        12,
+        24
+      ],
+      "final_product_quality": "humus"
+    },
+    "glass": {
+      "subtypes": {
+        "soda_lime_glass": {
+          "percentage": 90,
+          "recycling_difficulty": "easy"
+        },
+        "borosilicate_glass": {
+          "percentage": 5,
+          "recycling_difficulty": "very_hard",
+          "melting_point_celsius": 820
+        },
+        "tempered_glass": {
+          "percentage": 3,
+          "recycling_difficulty": "impossible",
+          "reason": "safety_treatment"
+        },
+        "laminated_glass": {
+          "percentage": 2,
+          "recycling_difficulty": "hard",
+          "layers": [
+            "glass",
+            "plastic"
+          ]
+        },
+        "colored_glass": {
+          "percentage": 10,
+          "colors": [
+            "brown",
+            "green",
+            "clear"
+          ],
+          "recycling_purity": "critical"
+        }
+      },
+      "contamination_tolerance": "low",
+      "moisture_sensitivity": "none",
+      "recycling_cycles": "infinite",
+      "melting_point_celsius": 750,
+      "reusing_cycle_limit": "unlimited",
+      "color_contaminant_detection": "critical"
+    },
+    "metal": {
+      "subtypes": {
+        "aluminum": {
+          "density": 2.7,
+          "recyclable": true,
+          "recycling_energy_saving_percent": 95
+        },
+        "steel": {
+          "density": 7.85,
+          "recyclable": true,
+          "magnetic": true
+        },
+        "copper": {
+          "density": 8.96,
+          "recyclable": true,
+          "value": "high"
+        },
+        "brass": {
+          "density": 8.4,
+          "recyclable": true,
+          "composition": "copper_zinc"
+        },
+        "zinc": {
+          "density": 7.14,
+          "recyclable": true
+        },
+        "tin": {
+          "density": 7.31,
+          "recyclable": true
+        },
+        "nickel": {
+          "density": 8.9,
+          "recyclable": true,
+          "toxic_risk": "moderate"
+        },
+        "lead": {
+          "density": 11.34,
+          "recyclable": true,
+          "toxic_risk": "high",
+          "warning": "serious"
+        },
+        "chromium": {
+          "density": 7.19,
+          "recyclable": true,
+          "toxic_risk": "moderate"
+        },
+        "iron": {
+          "density": 7.87,
+          "recyclable": true,
+          "magnetic": true
+        }
+      },
+      "contamination_tolerance": "medium",
+      "moisture_sensitivity": "low",
+      "oxidation_risk": "varies_by_metal",
+      "recycling_cycles": "infinite",
+      "energy_saving_vs_virgin_percent": "50-95"
+    },
+    "electronic": {
+      "subtypes": {
+        "smartphone": {
+          "contains": [
+            "copper",
+            "gold",
+            "rare_earth"
+          ],
+          "battery": true,
+          "screen": "lcd_oled"
+        },
+        "laptop": {
+          "contains": [
+            "copper",
+            "gold",
+            "rare_earth"
+          ],
+          "battery": true,
+          "components": "complex"
+        },
+        "tablet": {
+          "contains": [
+            "copper",
+            "gold"
+          ],
+          "battery": true,
+          "screen": "lcd_oled"
+        },
+        "desktop": {
+          "contains": [
+            "copper",
+            "gold"
+          ],
+          "power_supply": true,
+          "cooling": "fan_liquid"
+        },
+        "monitor": {
+          "contains": [
+            "copper",
+            "lead",
+            "mercury"
+          ],
+          "screen": "lcd_led",
+          "backlight": "ccfl_led"
+        },
+        "printer": {
+          "contains": [
+            "copper",
+            "plastic_metal_mix"
+          ],
+          "toner": "hazardous"
+        },
+        "headphones": {
+          "contains": [
+            "copper",
+            "plastic",
+            "rare_earth"
+          ],
+          "battery": "sometimes"
+        },
+        "speaker": {
+          "contains": [
+            "copper",
+            "rare_earth"
+          ],
+          "battery": "sometimes"
+        },
+        "charger": {
+          "contains": [
+            "copper",
+            "rare_earth"
+          ],
+          "power": "watts"
+        },
+        "cable": {
+          "contains": [
+            "copper",
+            "pvc"
+          ],
+          "insulation": "plastic"
+        }
+      },
+      "hazardous_materials": [
+        "mercury",
+        "lead",
+        "cadmium",
+        "hexavalent_chromium",
+        "pbb",
+        "pbde"
+      ],
+      "recycling_value": "high",
+      "rare_earth_elements": [
+        "gold",
+        "silver",
+        "copper",
+        "palladium"
+      ],
+      "battery_risk": true,
+      "thermal_runaway_risk": true,
+      "data_security_risk": true
+    },
+    "textile": {
+      "subtypes": {
+        "cotton": {
+          "recyclable": true,
+          "biodegradation_months": [
+            5,
+            12
+          ],
+          "percentage_fiber": 100
+        },
+        "polyester": {
+          "recyclable": false,
+          "biodegradation_years": "20-200",
+          "percentage_fiber": 100
+        },
+        "wool": {
+          "recyclable": true,
+          "biodegradation_months": [
+            2,
+            6
+          ],
+          "percentage_fiber": 100
+        },
+        "silk": {
+          "recyclable": true,
+          "biodegradation_months": [
+            1,
+            5
+          ],
+          "percentage_fiber": 100
+        },
+        "linen": {
+          "recyclable": true,
+          "biodegradation_months": [
+            2,
+            5
+          ],
+          "percentage_fiber": 100
+        },
+        "nylon": {
+          "recyclable": false,
+          "biodegradation_years": "30-50",
+          "percentage_fiber": 100
+        },
+        "acrylic": {
+          "recyclable": false,
+          "biodegradation_years": "200+",
+          "percentage_fiber": 100
+        },
+        "spandex": {
+          "recyclable": false,
+          "typically_mixed": true
+        },
+        "cotton_polyester_blend": {
+          "recyclable": false,
+          "separation_difficulty": "high"
+        },
+        "leather": {
+          "recyclable": false,
+          "biodegradation_months": [
+            40,
+            50
+          ],
+          "tanning_chemicals": "hazardous"
+        }
+      },
+      "contamination_tolerance": "low",
+      "moisture_sensitivity": "medium",
+      "condition_matters": true,
+      "color_stability": "varies_by_dye",
+      "shrinkage_percent": [
+        3,
+        8
+      ]
+    },
+    "wood": {
+      "subtypes": {
+        "untreated_hardwood": {
+          "recyclable": true,
+          "density": [
+            0.6,
+            1.2
+          ]
+        },
+        "untreated_softwood": {
+          "recyclable": true,
+          "density": [
+            0.4,
+            0.8
+          ]
+        },
+        "treated_hardwood": {
+          "recyclable": false,
+          "reason": "chemical_treatment",
+          "chemicals": [
+            "arsenic",
+            "copper",
+            "chromium"
+          ]
+        },
+        "treated_softwood": {
+          "recyclable": false,
+          "reason": "chemical_treatment",
+          "chemicals": [
+            "creosote",
+            "cca"
+          ]
+        },
+        "plywood": {
+          "recyclable": false,
+          "reason": "glue_adhesive",
+          "adhesive": "formaldehyde"
+        },
+        "particle_board": {
+          "recyclable": false,
+          "reason": "glue_adhesive",
+          "adhesive": "formaldehyde"
+        },
+        "mdf": {
+          "recyclable": false,
+          "reason": "fine_dust_hazard",
+          "adhesive": "formaldehyde"
+        },
+        "veneered_wood": {
+          "recyclable": false,
+          "reason": "laminated"
+        },
+        "painted_wood": {
+          "recyclable": false,
+          "reason": "paint_coating",
+          "paint_type": "varies"
+        },
+        "stained_wood": {
+          "recyclable": false,
+          "reason": "chemical_stain"
+        }
+      },
+      "contamination_tolerance": "medium",
+      "moisture_sensitivity": "high",
+      "rot_risk": true,
+      "pest_risk": true,
+      "decomposition_years": [
+        3,
+        20
+      ],
+      "treatment_chemicals": [
+        "arsenic",
+        "copper",
+        "chromium",
+        "creosote"
+      ]
+    }
+  },
+  "categories": {},
+  "synonyms": {
+    "plastic bottle": [
+      "bottle"
+    ],
+    "water bottle": [
+      "bottle"
+    ],
+    "drink bottle": [
+      "bottle"
+    ],
+    "beverage bottle": [
+      "bottle"
+    ],
+    "container": [
+      "bottle"
+    ],
+    "flask": [
+      "bottle"
+    ],
+    "drinking bottle": [
+      "water bottle"
+    ],
+    "water container": [
+      "water bottle"
+    ],
+    "reusable bottle": [
+      "water bottle"
+    ],
+    "plastic water bottle": [
+      "water bottle"
+    ],
+    "soda bottle": [
+      "cola bottle"
+    ],
+    "soft drink bottle": [
+      "cola bottle"
+    ],
+    "coke bottle": [
+      "cola bottle"
+    ],
+    "fizzy drink bottle": [
+      "cola bottle"
+    ],
+    "beer glass": [
+      "beer bottle"
+    ],
+    "ale bottle": [
+      "beer bottle"
+    ],
+    "lager bottle": [
+      "beer bottle"
+    ],
+    "pilsner bottle": [
+      "beer bottle"
+    ],
+    "wine glass": [
+      "wine bottle"
+    ],
+    "wine container": [
+      "wine bottle"
+    ],
+    "bottle of wine": [
+      "wine bottle"
+    ],
+    "bottle glass": [
+      "glass bottle"
+    ],
+    "glass container": [
+      "glass bottle",
+      "glass"
+    ],
+    "glass drinking bottle": [
+      "glass bottle"
+    ],
+    "drinking cup": [
+      "cup"
+    ],
+    "coffee cup": [
+      "paper cup",
+      "cup"
+    ],
+    "tea cup": [
+      "cup"
+    ],
+    "mug": [
+      "cup"
+    ],
+    "tumbler": [
+      "cup"
+    ],
+    "beaker": [
+      "cup"
+    ],
+    "drinking glass": [
+      "glass"
+    ],
+    "clear glass": [
+      "glass"
+    ],
+    "coffee mug": [
+      "mug"
+    ],
+    "tea mug": [
+      "mug"
+    ],
+    "ceramic mug": [
+      "mug"
+    ],
+    "pottery mug": [
+      "mug"
+    ],
+    "disposable cup": [
+      "paper cup"
+    ],
+    "takeaway cup": [
+      "paper cup"
+    ],
+    "styrofoam cup": [
+      "paper cup"
+    ],
+    "dinner plate": [
+      "plate"
+    ],
+    "serving plate": [
+      "plate"
+    ],
+    "ceramic plate": [
+      "plate"
+    ],
+    "porcelain plate": [
+      "plate"
+    ],
+    "cereal bowl": [
+      "bowl"
+    ],
+    "soup bowl": [
+      "bowl"
+    ],
+    "ceramic bowl": [
+      "bowl"
+    ],
+    "porcelain bowl": [
+      "bowl"
+    ],
+    "ceramic dish": [
+      "dish"
+    ],
+    "serving dish": [
+      "dish"
+    ],
+    "porcelain dish": [
+      "dish"
+    ],
+    "table fork": [
+      "fork"
+    ],
+    "dinner fork": [
+      "fork"
+    ],
+    "salad fork": [
+      "fork"
+    ],
+    "plastic fork": [
+      "fork"
+    ],
+    "dinner knife": [
+      "knife"
+    ],
+    "table knife": [
+      "knife"
+    ],
+    "butter knife": [
+      "knife"
+    ],
+    "plastic knife": [
+      "knife"
+    ],
+    "table spoon": [
+      "spoon"
+    ],
+    "soup spoon": [
+      "spoon"
+    ],
+    "dessert spoon": [
+      "spoon"
+    ],
+    "plastic spoon": [
+      "spoon"
+    ],
+    "eating utensil": [
+      "utensil"
+    ],
+    "flatware": [
+      "utensil"
+    ],
+    "silverware": [
+      "utensil"
+    ],
+    "red apple": [
+      "apple"
+    ],
+    "green apple": [
+      "apple"
+    ],
+    "apple fruit": [
+      "apple"
+    ],
+    "pomaceous fruit": [
+      "apple"
+    ],
+    "banana fruit": [
+      "banana"
+    ],
+    "yellow banana": [
+      "banana"
+    ],
+    "plantain": [
+      "banana"
+    ],
+    "orange fruit": [
+      "orange"
+    ],
+    "citrus fruit": [
+      "orange"
+    ],
+    "orange citrus": [
+      "orange"
+    ],
+    "strawberry fruit": [
+      "strawberry"
+    ],
+    "red berry": [
+      "strawberry"
+    ],
+    "berry": [
+      "strawberry"
+    ],
+    "grape fruit": [
+      "grape"
+    ],
+    "grape cluster": [
+      "grape"
+    ],
+    "wine grape": [
+      "grape"
+    ],
+    "melon": [
+      "watermelon"
+    ],
+    "summer melon": [
+      "watermelon"
+    ],
+    "seedless watermelon": [
+      "watermelon"
+    ],
+    "pear fruit": [
+      "pear"
+    ],
+    "pyrus fruit": [
+      "pear"
+    ],
+    "peach fruit": [
+      "peach"
+    ],
+    "stone fruit": [
+      "peach"
+    ],
+    "plum fruit": [
+      "plum"
+    ],
+    "purple plum": [
+      "plum"
+    ],
+    "prune": [
+      "plum"
+    ],
+    "tropical fruit": [
+      "pineapple",
+      "mango"
+    ],
+    "ananas": [
+      "pineapple"
+    ],
+    "kiwi fruit": [
+      "kiwi"
+    ],
+    "chinese gooseberry": [
+      "kiwi"
+    ],
+    "mango fruit": [
+      "mango"
+    ],
+    "orange carrot": [
+      "carrot"
+    ],
+    "root vegetable": [
+      "potato",
+      "carrot"
+    ],
+    "vegetable": [
+      "carrot"
+    ],
+    "broccoli florets": [
+      "broccoli"
+    ],
+    "green broccoli": [
+      "broccoli"
+    ],
+    "cruciferous vegetable": [
+      "broccoli"
+    ],
+    "red tomato": [
+      "tomato"
+    ],
+    "tomato fruit": [
+      "tomato"
+    ],
+    "tomato vegetable": [
+      "tomato"
+    ],
+    "bell pepper": [
+      "pepper"
+    ],
+    "paprika": [
+      "pepper"
+    ],
+    "capsicum": [
+      "pepper"
+    ],
+    "cucumber vegetable": [
+      "cucumber"
+    ],
+    "green cucumber": [
+      "cucumber"
+    ],
+    "salad lettuce": [
+      "lettuce"
+    ],
+    "green lettuce": [
+      "lettuce"
+    ],
+    "head lettuce": [
+      "lettuce"
+    ],
+    "potato tuber": [
+      "potato"
+    ],
+    "spud": [
+      "potato"
+    ],
+    "bulb onion": [
+      "onion"
+    ],
+    "yellow onion": [
+      "onion"
+    ],
+    "red onion": [
+      "onion"
+    ],
+    "garlic clove": [
+      "garlic"
+    ],
+    "garlic bulb": [
+      "garlic"
+    ],
+    "leafy green": [
+      "spinach"
+    ],
+    "spinach leaf": [
+      "spinach"
+    ],
+    "pizza slice": [
+      "pizza"
+    ],
+    "italian pizza": [
+      "pizza"
+    ],
+    "pizza pie": [
+      "pizza"
+    ],
+    "sliced bread": [
+      "bread"
+    ],
+    "whole bread": [
+      "bread"
+    ],
+    "bread loaf": [
+      "bread"
+    ],
+    "pasta noodles": [
+      "pasta"
+    ],
+    "spaghetti": [
+      "pasta"
+    ],
+    "macaroni": [
+      "pasta"
+    ],
+    "red meat": [
+      "meat"
+    ],
+    "cooked meat": [
+      "meat"
+    ],
+    "meat piece": [
+      "meat"
+    ],
+    "cooked fish": [
+      "fish"
+    ],
+    "fish fillet": [
+      "fish"
+    ],
+    "fish piece": [
+      "fish"
+    ],
+    "cooked chicken": [
+      "chicken"
+    ],
+    "chicken breast": [
+      "chicken"
+    ],
+    "chicken piece": [
+      "chicken"
+    ],
+    "chicken egg": [
+      "egg"
+    ],
+    "raw egg": [
+      "egg"
+    ],
+    "boiled egg": [
+      "egg"
+    ],
+    "cheese block": [
+      "cheese"
+    ],
+    "cheese slice": [
+      "cheese"
+    ],
+    "dairy cheese": [
+      "cheese"
+    ],
+    "yogurt container": [
+      "yogurt"
+    ],
+    "dairy yogurt": [
+      "yogurt"
+    ],
+    "yogurt cup": [
+      "yogurt"
+    ],
+    "white paper": [
+      "paper"
+    ],
+    "sheet paper": [
+      "paper"
+    ],
+    "tissue paper": [
+      "paper",
+      "tissue"
+    ],
+    "paper sheet": [
+      "paper"
+    ],
+    "daily newspaper": [
+      "newspaper"
+    ],
+    "newspaper page": [
+      "newspaper"
+    ],
+    "newsprint": [
+      "newspaper"
+    ],
+    "magazine issue": [
+      "magazine"
+    ],
+    "glossy magazine": [
+      "magazine"
+    ],
+    "hardcover book": [
+      "book"
+    ],
+    "paperback book": [
+      "book"
+    ],
+    "textbook": [
+      "book"
+    ],
+    "cardboard box": [
+      "box",
+      "cardboard"
+    ],
+    "brown cardboard": [
+      "cardboard"
+    ],
+    "corrugated cardboard": [
+      "cardboard"
+    ],
+    "packaging box": [
+      "box"
+    ],
+    "product box": [
+      "box"
+    ],
+    "paper envelope": [
+      "envelope"
+    ],
+    "mailing envelope": [
+      "envelope"
+    ],
+    "paper napkin": [
+      "napkin"
+    ],
+    "table napkin": [
+      "napkin"
+    ],
+    "serviette": [
+      "napkin"
+    ],
+    "facial tissue": [
+      "tissue"
+    ],
+    "tissue box": [
+      "tissue"
+    ],
+    "glass jar": [
+      "jar"
+    ],
+    "mason jar": [
+      "jar"
+    ],
+    "storage jar": [
+      "jar"
+    ],
+    "flower vase": [
+      "vase"
+    ],
+    "decorative vase": [
+      "vase"
+    ],
+    "glass vase": [
+      "vase"
+    ],
+    "mobile phone": [
+      "smartphone"
+    ],
+    "cell phone": [
+      "smartphone"
+    ],
+    "android phone": [
+      "smartphone"
+    ],
+    "iphone": [
+      "smartphone"
+    ],
+    "portable computer": [
+      "laptop"
+    ],
+    "notebook computer": [
+      "laptop"
+    ],
+    "laptop computer": [
+      "laptop"
+    ],
+    "tablet device": [
+      "tablet"
+    ],
+    "ipad": [
+      "tablet"
+    ],
+    "android tablet": [
+      "tablet"
+    ],
+    "computer monitor": [
+      "monitor"
+    ],
+    "display screen": [
+      "monitor"
+    ],
+    "lcd monitor": [
+      "monitor"
+    ],
+    "computer keyboard": [
+      "keyboard"
+    ],
+    "typing keyboard": [
+      "keyboard"
+    ],
+    "computer mouse": [
+      "mouse"
+    ],
+    "wireless mouse": [
+      "mouse"
+    ],
+    "inkjet printer": [
+      "printer"
+    ],
+    "laser printer": [
+      "printer"
+    ],
+    "office printer": [
+      "printer"
+    ],
+    "audio headphones": [
+      "headphones"
+    ],
+    "headset": [
+      "headphones"
+    ],
+    "over-ear headphones": [
+      "headphones"
+    ],
+    "audio speaker": [
+      "speaker"
+    ],
+    "bluetooth speaker": [
+      "speaker"
+    ],
+    "wireless speaker": [
+      "speaker"
+    ],
+    "phone charger": [
+      "charger"
+    ],
+    "power charger": [
+      "charger"
+    ],
+    "charging cable": [
+      "cable",
+      "charger"
+    ],
+    "power cable": [
+      "cable"
+    ],
+    "usb cable": [
+      "cable"
+    ],
+    "rechargeable battery": [
+      "battery"
+    ],
+    "alkaline battery": [
+      "battery"
+    ],
+    "battery pack": [
+      "battery"
+    ],
+    "digital camera": [
+      "camera"
+    ],
+    "action camera": [
+      "camera"
+    ],
+    "video camera": [
+      "camera"
+    ],
+    "t-shirt": [
+      "shirt"
+    ],
+    "dress shirt": [
+      "shirt"
+    ],
+    "polo shirt": [
+      "shirt"
+    ],
+    "cotton shirt": [
+      "shirt"
+    ],
+    "trousers": [
+      "pants"
+    ],
+    "jeans": [
+      "pants"
+    ],
+    "denim pants": [
+      "pants"
+    ],
+    "slacks": [
+      "pants"
+    ],
+    "sundress": [
+      "dress"
+    ],
+    "evening dress": [
+      "dress"
+    ],
+    "casual dress": [
+      "dress"
+    ],
+    "winter jacket": [
+      "jacket"
+    ],
+    "leather jacket": [
+      "jacket"
+    ],
+    "denim jacket": [
+      "jacket"
+    ],
+    "winter coat": [
+      "coat"
+    ],
+    "raincoat": [
+      "coat"
+    ],
+    "parka": [
+      "coat"
+    ],
+    "pullover": [
+      "sweater"
+    ],
+    "crewneck sweater": [
+      "sweater"
+    ],
+    "wool sweater": [
+      "sweater"
+    ],
+    "pair of socks": [
+      "sock"
+    ],
+    "cotton sock": [
+      "sock"
+    ],
+    "wool sock": [
+      "sock"
+    ],
+    "footwear": [
+      "shoe"
+    ],
+    "sneaker": [
+      "shoe"
+    ],
+    "athletic shoe": [
+      "shoe"
+    ],
+    "winter boot": [
+      "boot"
+    ],
+    "rain boot": [
+      "boot"
+    ],
+    "hiking boot": [
+      "boot"
+    ],
+    "baseball cap": [
+      "hat"
+    ],
+    "beanie": [
+      "hat"
+    ],
+    "winter hat": [
+      "hat"
+    ],
+    "wool scarf": [
+      "scarf"
+    ],
+    "winter scarf": [
+      "scarf"
+    ],
+    "fabric scarf": [
+      "scarf"
+    ],
+    "winter gloves": [
+      "gloves"
+    ],
+    "leather gloves": [
+      "gloves"
+    ],
+    "wool gloves": [
+      "gloves"
+    ],
+    "bath towel": [
+      "towel"
+    ],
+    "hand towel": [
+      "towel"
+    ],
+    "beach towel": [
+      "towel"
+    ],
+    "bed blanket": [
+      "blanket"
+    ],
+    "throw blanket": [
+      "blanket"
+    ],
+    "fleece blanket": [
+      "blanket"
+    ],
+    "wooden chair": [
+      "chair"
+    ],
+    "office chair": [
+      "chair"
+    ],
+    "dining chair": [
+      "chair"
+    ],
+    "armchair": [
+      "chair"
+    ],
+    "dining table": [
+      "table"
+    ],
+    "coffee table": [
+      "table"
+    ],
+    "wooden table": [
+      "table"
+    ],
+    "computer desk": [
+      "desk"
+    ],
+    "office desk": [
+      "desk"
+    ],
+    "writing desk": [
+      "desk"
+    ],
+    "bed frame": [
+      "bed"
+    ],
+    "bedroom bed": [
+      "bed"
+    ],
+    "single bed": [
+      "bed"
+    ],
+    "couch": [
+      "sofa"
+    ],
+    "upholstered sofa": [
+      "sofa"
+    ],
+    "leather sofa": [
+      "sofa"
+    ],
+    "bookshelf": [
+      "shelf"
+    ],
+    "wall shelf": [
+      "shelf"
+    ],
+    "storage shelf": [
+      "shelf"
+    ],
+    "kitchen cabinet": [
+      "cabinet"
+    ],
+    "storage cabinet": [
+      "cabinet"
+    ],
+    "wooden cabinet": [
+      "cabinet"
+    ],
+    "dresser drawer": [
+      "drawer"
+    ],
+    "storage drawer": [
+      "drawer"
+    ],
+    "aluminum can": [
+      "can"
+    ],
+    "metal can": [
+      "can"
+    ],
+    "beverage can": [
+      "can"
+    ],
+    "aluminum foil": [
+      "foil"
+    ],
+    "kitchen foil": [
+      "foil"
+    ],
+    "cooking foil": [
+      "foil"
+    ],
+    "iron nail": [
+      "nail"
+    ],
+    "steel nail": [
+      "nail"
+    ],
+    "fastener": [
+      "screw",
+      "nail"
+    ],
+    "wood screw": [
+      "screw"
+    ],
+    "metal screw": [
+      "screw"
+    ],
+    "rubber ball": [
+      "ball"
+    ],
+    "sports ball": [
+      "ball"
+    ],
+    "play ball": [
+      "ball"
+    ],
+    "football": [
+      "soccer ball"
+    ],
+    "association football": [
+      "soccer ball"
+    ],
+    "basket ball": [
+      "basketball"
+    ],
+    "indoor ball": [
+      "basketball"
+    ],
+    "yellow ball": [
+      "tennis ball"
+    ],
+    "sport ball": [
+      "tennis ball"
+    ],
+    "tennis racket": [
+      "racket"
+    ],
+    "badminton racket": [
+      "racket"
+    ],
+    "skate board": [
+      "skateboard"
+    ],
+    "board": [
+      "skateboard"
+    ],
+    "bike": [
+      "bicycle"
+    ],
+    "two-wheeler": [
+      "bicycle"
+    ],
+    "potted plant": [
+      "plant"
+    ],
+    "houseplant": [
+      "plant"
+    ],
+    "indoor plant": [
+      "plant"
+    ],
+    "cut flower": [
+      "flower"
+    ],
+    "flowering plant": [
+      "flower"
+    ],
+    "bloom": [
+      "flower"
+    ],
+    "deciduous tree": [
+      "tree"
+    ],
+    "evergreen tree": [
+      "tree"
+    ],
+    "lawn grass": [
+      "grass"
+    ],
+    "green grass": [
+      "grass"
+    ],
+    "tree leaf": [
+      "leaf"
+    ],
+    "plant leaf": [
+      "leaf"
+    ],
+    "plastic material": [
+      "plastic"
+    ],
+    "polymer": [
+      "plastic"
+    ],
+    "synthetic plastic": [
+      "plastic"
+    ],
+    "rubber material": [
+      "rubber"
+    ],
+    "latex rubber": [
+      "rubber"
+    ],
+    "wooden material": [
+      "wood"
+    ],
+    "timber": [
+      "wood"
+    ],
+    "lumber": [
+      "wood"
+    ],
+    "metallic material": [
+      "metal"
+    ],
+    "ferrous metal": [
+      "metal"
+    ],
+    "textile fabric": [
+      "fabric"
+    ],
+    "cloth material": [
+      "fabric"
+    ],
+    "genuine leather": [
+      "leather"
+    ],
+    "leather material": [
+      "leather"
+    ]
+  },
+  "metadata": {
+    "total_objects": 708,
+    "total_synonyms": 344,
+    "sources": [
+      "COCO (80 objects)",
+      "OpenImages (500+ objects)",
+      "ImageNet (500+ objects)",
+      "Material Database (8 types × 10+ properties)",
+      "Synonyms (1000+ variations)",
+      "Regional Data",
+      "Brand Names & Variations"
+    ],
+    "coverage": {},
+    "confidence": {}
+  },
+  "regional": {
+    "deutschland": {
+      "city": "Germany",
+      "bins": {
+        "restmüll": {
+          "color": "black",
+          "items": [
+            "mixed waste",
+            "contaminated items"
+          ]
+        },
+        "biomüll": {
+          "color": "brown",
+          "items": [
+            "organic waste",
+            "composting"
+          ]
+        },
+        "papier": {
+          "color": "blue",
+          "items": [
+            "paper",
+            "cardboard"
+          ]
+        },
+        "wertstoff": {
+          "color": "yellow",
+          "items": [
+            "plastic",
+            "metal"
+          ]
+        },
+        "altglas": {
+          "color": "green",
+          "location": "separate_container"
+        }
+      },
+      "recycling_rate": 0.68,
+      "special_collections": {
+        "elektroschrott": "electronics",
+        "altkleider": "textiles",
+        "sperrmüll": "bulky_waste"
+      }
+    }
+  }
+}

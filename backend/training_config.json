@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "interval_days": 7,
+  "last_run_at": "",
+  "last_status": "not_configured",
+  "last_exit_code": null,
+  "dataset_dir": "",
+  "export_verified_feedback": true,
+  "exp_name": "yolox_l",
+  "output_ckpt": "C:\\models\\yolox_l.pth",
+  "train_command": [],
+  "notes": "Set dataset_dir and train_command to enable automatic retraining."
+}

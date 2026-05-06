@@ -1,0 +1,7 @@
+{
+  "path": "c:\\Philipp\\Schule\\SmarTrash\\SmarTrash\\backend\\waste_memory\\exports\\dataset_20260416_084916",
+  "train": "images/train",
+  "val": "images/val",
+  "names": {},
+  "nc": 0
+}

@@ -1,0 +1,9 @@
+{
+  "detection_id": 1,
+  "image_hash": "testhash123",
+  "predicted_class": "bottle",
+  "correct_class": "bottle",
+  "is_correct": true,
+  "comment": "api-check",
+  "timestamp": "2026-04-16T08:40:47.623524"
+}
